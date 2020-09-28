@@ -1,7 +1,7 @@
 <?php
   try {
       require('data.php');
-      $db = PDO("psql:dbname=$databaseName
+      $db = new PDO("psql:dbname=$databaseName
       ; host=localhost;port=5432;user=$user;password=$
       password");
   } catch (Exception $e) {
