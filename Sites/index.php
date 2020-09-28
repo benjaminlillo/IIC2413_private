@@ -10,9 +10,6 @@
 
   <form align="center" action="consultas/consulta_1.php" method="post">
 
-    Nombre:
-    <input type="text" name="nombre_naviera">
-    <br/><br/>
     <input type="submit" value="Buscar">
   </form>
 
