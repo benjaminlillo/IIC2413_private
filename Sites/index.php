@@ -12,7 +12,7 @@
 
   <br>
 
-  #consulta 1
+  <!--consulta 1-->
   <h3 align="center"> Mostrar el nombre de todas las navieras </h3>
 
   <form align="center" action="consultas/consulta_1.php" method="post">
@@ -23,7 +23,7 @@
   <br>
   <br>
 
-  #consulta 2
+  <!--consulta 2-->
   <h3 align="center"> Mostrar todos los buques de una naviera </h3>
 
   <form align="center" action="consultas/consulta_2.php" method="post">
@@ -37,7 +37,7 @@
   <br>
   <br>
 
-  #consulta 3
+  <!--consulta 3-->
   <h3 align="center"> Mostrar todos los buques que hayan atracado en un puerto</h3>
 
   <form align="center" action="consultas/consulta_3.php" method="post">
@@ -51,7 +51,7 @@
   <br>
   <br>
 
-  #consulta 4
+  <!--consulta 4-->
   <h3 align="center"> Mostrar todos los buques que hayan estado en un puerto al mismo tiempo que otro buque </h3>
 
   <form align="center" action="consultas/consulta_4.php" method="post">
@@ -68,7 +68,7 @@
   <br>
   <br>
 
-  #consulta 5
+  <!--consulta 5-->
   <h3 align="center"> Mostrar todos los capitanes mujeres que han pasado por un puerto </h3>
 
   <form align="center" action="consultas/consulta_5.php" method="post">
@@ -82,7 +82,7 @@
   <br>
   <br>
 
-  #consulta 6
+  <!--consulta 6-->
   <h3 align="center"> Mostrar el buque pesquero que tiene más personas trabajando </h3>
 
   <form align="center" action="consultas/consulta_6.php" method="post">
