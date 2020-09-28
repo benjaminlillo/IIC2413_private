@@ -5,7 +5,7 @@
   <?php
   require("../config/conexion.php"); #Llama a conexión, crea el objeto PDO y obtiene la variable $db
 
-  $query = "SELECT nombre FROM Navieras;";
+  $query = "SELECT nid, nombre FROM Naviera;";
   $result = $db -> prepare($query);
   $result -> execute();
   $dataCollected = $result -> fetchAll(); #Obtiene todos los resultados de la consulta en forma de un arreglo
