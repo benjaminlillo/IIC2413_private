@@ -5,7 +5,8 @@
   <?php
   require("../config/conexion.php"); #Llama a conexión, crea el objeto PDO y obtiene la variable $db
 
-  $query = "SELECT nombre FROM Navieras;";
+  $naviera = $_POST["nombre_naviera"];
+  $query = "SELECT * FROM Navieras";
   $result = $db -> prepare($query);
   $result -> execute();
   $dataCollected = $result -> fetchAll(); #Obtiene todos los resultados de la consulta en forma de un arreglo
@@ -13,12 +14,16 @@
 
   <table>
     <tr>
-    <th>NID</th>
-      <th>NOMBRE</th>
+      <th>ID</th>
+      <th>Nombre</th>
+      <th>Altura</th>
+      <th>Peso</th>
+      <th>Exp Base</th>
+      <th>Tipo</th>
     </tr>
   <?php
   foreach ($dataCollected as $p) {
-    echo "<tr> <td>$p[0]</td> <td>$p[1]</td>";
+    echo "<tr> <td>$p[0]</td> <td>$p[1]</td> <td>$p[2]</td> <td>$p[3]</td> <td>$p[4]</td> <td>$p[5]</td> </tr>";
   }
   ?>
   </table>
