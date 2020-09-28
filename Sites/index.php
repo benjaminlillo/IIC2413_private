@@ -52,7 +52,7 @@
   <br>
 
   <!--consulta 4-->
-  <h3 align="center"> Mostrar todos los buques que hayan estado en un puerto al mismo tiempo que otro buque </h3>
+  <h3 align="center"> Mostrar todos los buques que hayan estado en un puerto al mismo tiempo que un buque </h3>
 
   <form align="center" action="consultas/consulta_4.php" method="post">
     Nombre del puerto:
