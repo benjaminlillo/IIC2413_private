@@ -6,7 +6,7 @@
   require("../config/conexion.php"); #Llama a conexión, crea el objeto PDO y obtiene la variable $db
 
   $puerto = $_POST["nombre_puerto"];
-  $query = "SELECT * FROM pokemones WHERE tipo='$var';";
+  $query = "SELECT * FROM personal NATURAL JOIN trabajaen NATURAL JOIN (SELECT buque.bid, atraque.puerto FROM buque NATURAL JOIN historial NATURAL JOIN atraque WHERE LOWER(atraque.puerto) LIKE LOWER('%$puerto%')) AS pasaron_puerto WHERE personal.genero = 'mujer";
   $result = $db -> prepare($query);
   $result -> execute();
   $dataCollected = $result -> fetchAll(); #Obtiene todos los resultados de la consulta en forma de un arreglo
@@ -14,12 +14,11 @@
 
   <table>
     <tr>
-      <th>ID</th>
-      <th>Nombre</th>
-      <th>Altura</th>
-      <th>Peso</th>
-      <th>Exp Base</th>
-      <th>Tipo</th>
+      <th>Nombre buque</th>
+      <th>ID buque</th>
+      <th>Patente</th>
+      <th>País</th>
+      <th>Nombre puerto</th>
     </tr>
   <?php
   foreach ($dataCollected as $p) {

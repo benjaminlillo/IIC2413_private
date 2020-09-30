@@ -13,7 +13,7 @@
 
   <table>
     <tr>
-    <th>NID</th>
+    <th>ID naviera</th>
       <th>NOMBRE</th>
     </tr>
   <?php

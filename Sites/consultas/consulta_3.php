@@ -7,7 +7,7 @@
 
   $puerto = $_POST["nombre_puerto"];
   $ano = $_POST["año"];
-  $query = "SELECT * FROM Atraque;";
+  $query = "SELECT bid, nombre, patente FROM buque NATURAL JOIN historial NATURAL JOIN atraque WHERE LOWER(puerto) LIKE LOWER('%$puerto%') AND DATE(fecha_atraque) LIKE '%$ano%'";
   $result = $db -> prepare($query);
   $result -> execute();
   $dataCollected = $result -> fetchAll(); #Obtiene todos los resultados de la consulta en forma de un arreglo
