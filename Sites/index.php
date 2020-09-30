@@ -38,11 +38,14 @@
   <br>
 
   <!--consulta 3-->
-  <h3 align="center"> Mostrar todos los buques que hayan atracado en un puerto</h3>
+  <h3 align="center"> Mostrar todos los buques que hayan atracado en un puerto en un año</h3>
 
   <form align="center" action="consultas/consulta_3.php" method="post">
     Nombre del puerto:
     <input type="text" name="nombre_puerto">
+    <br/><br/>
+    Año de atraque:
+    <input type="text" name="año">
     <br/><br/>
     <input type="submit" value="Buscar">
   </form>

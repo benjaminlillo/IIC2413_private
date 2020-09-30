@@ -6,6 +6,7 @@
   require("../config/conexion.php"); #Llama a conexión, crea el objeto PDO y obtiene la variable $db
 
   $puerto = $_POST["nombre_puerto"];
+  $ano = $_POST["año"];
   $query = "SELECT * FROM Atraque;";
   $result = $db -> prepare($query);
   $result -> execute();
