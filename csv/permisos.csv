@@ -1,0 +1,893 @@
+id_instalacion,nombre_barco,patente_barco,pais,fecha_atraque,fecha_salida,descripcion_actividad
+140,Bristol,DK4889,Portugal,2018-04-20 06:06:35,2018-04-27 23:05:22,
+65,Albanaise,QI7769,Japon,2013-02-27 18:30:10,,se debe cargar petroleo
+155,Almirante Devries,RJ2733,Estados Unidos,2020-01-30 22:55:13,,se debe descargar petroleo
+179,Broaderschap,NN8091,Jamaica,2015-05-06 12:46:36,2015-05-10 11:47:27,
+78,Boulogne,PV7666,Austria,2019-05-20 15:02:21,,se debe descargar petroleo
+51,Premio Dreadnought,NT2280,Colombia,2011-08-17 07:29:06,2011-08-31 22:37:39,
+73,Albian,UH1378,Sudafrica,2021-06-08 21:31:23,,se debe descargar petroleo
+83,Bouclier,UJ2611,Islas Malvinas,2017-12-24 07:51:47,2018-01-04 02:06:45,
+172,Albemarle,XG7925,Filipinas,2013-04-29 06:37:44,,descarga de cointainers
+73,Albany,FM3163,Finlandia,2018-08-11 07:41:45,,descaraga de pescados
+76,Bowen,AI9121,Jamaica,2019-06-29 02:45:33,2019-07-04 19:21:17,
+30,Bergantin,TG8958,España,2018-02-28 07:06:16,2018-03-14 04:02:30,
+29,magnolia,ZP4420,Chile,2020-10-27 20:37:49,2020-10-28 11:03:15,
+205,Gulnare,OI4579,Egipto,2020-12-09 17:02:32,,descarga de cointainers
+116,Albatros,NX3376,Egipto,2017-06-17 12:12:29,2017-06-22 03:02:33,
+16,Bramham,GS9404,Filipinas,2012-04-04 09:16:24,,carga de cointainers
+43,Boxer,IX1197,Italia,2021-07-22 07:14:50,2021-07-23 06:38:09,
+126,broadwater,GS9663,Polonia,2021-01-15 03:33:43,2021-01-15 20:51:43,
+113,Boxer,IX1197,Italia,2020-11-25 00:28:10,2020-11-25 15:33:55,
+5,Adepto,KM2551,Republica Dominicana,2019-03-22 09:04:08,,se debe cargar petroleo
+109,Bleasdale,SV9482,Panama,2020-09-17 02:48:54,2020-09-27 19:13:59,
+69,Descarado,RO9221,Cuba,2020-04-11 20:34:46,2020-04-18 14:55:23,
+94,brantford,RP8314,Ecuador,2020-09-11 13:15:38,2020-09-22 07:26:05,
+205,Brevdrageren,HI3831,Belgica,2017-12-12 00:17:28,,carga de cointainers
+25,Zarza,MY3367,Portugal,2011-08-22 23:52:28,2011-09-01 20:14:47,
+15,Acanto,WW2485,Portugal,2017-08-09 02:19:41,2017-08-14 23:05:05,
+163,Adan y Eva,XP9141,Jamaica,2019-05-26 15:25:22,,descaraga de pescados
+151,Asesor,VT2032,Austria,2020-12-01 01:35:11,,descaraga de pescados
+122,dubbo,QJ1463,Tailandia,2020-07-27 09:06:46,2020-08-05 06:47:53,
+55,Boscawen,OF5460,Chile,2011-12-10 04:14:38,,descarga de cointainers
+159,Aconito,OT5458,Mexico,2021-05-11 07:46:01,2021-05-21 02:54:41,
+79,Brissenden,UZ5981,Cuba,2019-10-23 18:39:01,2019-11-02 09:44:20,
+113,bowmanville,PJ3020,Japon,2019-03-04 01:49:48,2019-03-18 16:50:34,
+5,Agua Negra,KC2936,Noruega,2018-09-27 03:47:38,,se debe cargar petroleo
+118,Africa,RK2324,Republica Dominicana,2010-06-14 12:17:28,,se debe cargar petroleo
+190,Acacia,XK7318,Argentina,2013-08-25 09:17:15,,descaraga de pescados
+98,Eneas,MU6547,Sudafrica,2012-06-09 03:12:41,,descarga de cointainers
+70,Adan y Eva,XP9141,Jamaica,2014-08-06 13:46:49,2014-08-20 11:11:52,
+33,Bonito,RA3983,Finlandia,2011-06-04 05:02:34,2011-06-15 00:10:17,
+120,Drochterland,NN2774,Tailandia,2017-01-24 07:16:18,,carga de cointainers
+12,bowmanville,PJ3020,Japon,2016-04-14 22:11:07,,se debe cargar petroleo
+188,Brissenden,UZ5981,Cuba,2021-07-28 00:31:39,,se debe descargar petroleo
+190,Breda,HB4367,Egipto,2019-03-29 03:34:06,,se debe cargar petroleo
+214,Bonne Ciudadana,YC1851,Austria,2020-10-17 04:13:53,2020-10-17 21:39:29,
+199,Blankney,TJ7818,Portugal,2016-06-30 04:02:02,,se debe descargar petroleo
+84,Agamenon,CI3218,Siria,2021-02-15 14:59:49,,se debe cargar petroleo
+178,Descarado,RO9221,Cuba,2016-04-21 08:32:12,,se debe descargar petroleo
+142,albacora,QL4591,Siria,2021-05-06 16:28:39,,carga de cointainers
+124,Acteon,FS3778,Indonesia,2015-12-18 02:20:55,,carga de cointainers
+163,Driada,LI5894,Singapur,2012-07-26 01:54:43,,descaraga de pescados
+12,brantford,RP8314,Ecuador,2021-01-02 07:56:35,,descarga de cointainers
+189,Drury,DG5218,Filipinas,2020-10-30 00:12:52,2020-10-30 22:23:51,
+38,acteon,VW7522,Australia,2012-09-25 23:55:54,2012-10-02 14:09:47,
+60,Chaqueta de sport,AM9504,Paraguay,2020-09-01 18:29:23,2020-09-11 11:02:39,
+199,Conductor,PZ1913,Nueva Zelanda,2015-05-12 07:19:14,,descarga de cointainers
+194,blencathra,UL8619,India,2014-12-21 22:21:23,,descaraga de pescados
+24,Boreas,VH2584,Ecuador,2015-09-16 11:19:53,,descarga de cointainers
+151,Bouclier,UJ2611,Islas Malvinas,2021-07-16 11:32:07,,descaraga de pescados
+127,Gurkha,TQ5114,Finlandia,2019-09-05 03:05:51,,descarga de cointainers
+5,Abigail,AU5998,Irlanda,2021-08-15 00:12:46,,descaraga de pescados
+156,Buenaventura,PJ8392,Republica Dominicana,2013-08-26 22:46:16,,descaraga de pescados
+91,Alamein,QJ6353,Peru,2019-01-31 10:28:50,2019-02-09 09:54:03,
+50,Britania,DT6703,Finlandia,2012-02-18 08:38:35,2012-02-29 03:03:56,
+212,bodenham,II3534,Noruega,2015-01-11 15:16:01,,descaraga de pescados
+27,Acorazado,GC3280,Islas Malvinas,2017-09-27 05:08:30,,descaraga de pescados
+5,Branlebas,DQ3759,India,2020-12-16 02:56:08,,carga de cointainers
+116,brearley,FO3430,India,2021-01-13 17:40:56,2021-01-14 12:39:51,
+49,Abigail,AU5998,Irlanda,2021-04-01 00:09:50,2021-04-01 20:48:52,
+54,Adonis,HE7029,India,2010-08-07 14:45:10,,se debe cargar petroleo
+95,Brigadier,HE2921,Dinamarca,2013-09-21 01:34:37,,descarga de cointainers
+90,Albrighton,GT9752,España,2021-01-22 01:39:53,,se debe descargar petroleo
+104,Adversario,MO4968,España,2021-06-19 05:17:54,2021-06-20 03:58:24,
+27,Brissenden,UZ5981,Cuba,2021-05-23 12:26:50,,se debe cargar petroleo
+11,Albert,MW6341,Tailandia,2012-11-17 07:07:15,,se debe cargar petroleo
+102,Brema,TR8211,Australia,2017-10-15 06:29:50,,se debe cargar petroleo
+51,Acteon,FS3778,Indonesia,2019-03-16 21:55:49,2019-03-28 20:58:50,
+9,Abundante,ON7101,Argentina,2017-01-25 03:34:12,2017-02-03 18:22:26,
+154,bodenham,II3534,Noruega,2014-12-30 21:51:45,,descaraga de pescados
+83,Bridgewater,DV6261,Belgica,2019-07-31 22:56:09,2019-08-11 15:39:42,
+63,Afridi,PZ3477,Nicaragua,2010-09-22 06:16:17,2010-09-30 22:59:32,
+105,Botha,DA9671,Suiza,2021-02-04 12:12:33,2021-02-05 11:25:59,
+85,Bravucon,KQ3854,Nicaragua,2013-12-13 17:00:07,,descaraga de pescados
+177,Abelia,PJ5481,Argentina,2014-07-05 02:56:31,,carga de cointainers
+94,Blanche,RV9799,Dinamarca,2016-04-21 05:46:57,2016-04-28 00:04:22,
+24,Blyth,OM4230,Paraguay,2016-10-09 23:34:24,,se debe descargar petroleo
+205,Bootle,XL6992,Costa Rica,2017-03-04 04:19:10,,descarga de cointainers
+101,Bridport,HK6767,Sudafrica,2010-03-19 23:07:33,2010-03-26 22:25:32,
+78,Dovey,XB6912,Argentina,2011-07-18 13:18:04,,carga de cointainers
+186,Premio dragon,EE2109,Nueva Zelanda,2020-12-05 22:40:37,,carga de cointainers
+194,Alarico,LW4637,Brasil,2012-05-30 15:32:39,,carga de cointainers
+198,Botha,DA9671,Suiza,2019-03-21 01:36:28,,descaraga de pescados
+144,Castillo bramber,SM2508,Colombia,2011-07-26 01:14:18,,descarga de cointainers
+58,Bridport,HK6767,Sudafrica,2019-10-17 15:54:18,2019-10-26 12:41:41,
+169,Premio aventura,VP2429,Australia,2021-09-06 04:02:26,2021-09-20 18:08:36,
+84,Conductor,PZ1913,Nueva Zelanda,2010-11-06 16:28:52,,descarga de cointainers
+214,drummondville,FE1567,Panama,2016-12-25 05:03:19,2017-01-09 03:15:19,
+30,Broadway,OH1392,Jamaica,2020-11-12 17:07:56,2020-11-13 09:40:38,
+59,Abercrombie,LX6914,Qatar,2014-08-30 06:37:19,,se debe descargar petroleo
+163,Abundante,ON7101,Argentina,2012-09-04 22:48:17,,descarga de cointainers
+48,Bouclier,UJ2611,Islas Malvinas,2013-07-26 06:45:21,2013-08-05 04:55:56,
+102,Driada,LI5894,Singapur,2021-05-24 12:49:41,,descaraga de pescados
+61,Alberta,FU8868,Panama,2012-12-08 00:07:00,,descaraga de pescados
+212,Acanto,WW2485,Portugal,2014-03-21 04:58:39,,se debe descargar petroleo
+90,Dubford,DY6365,Irlanda,2016-07-15 14:28:05,,carga de cointainers
+51,Downley,RW4421,Suiza,2017-02-14 21:56:27,2017-02-26 19:31:51,
+22,As,ID7819,Panama,2021-04-04 03:18:17,,descaraga de pescados
+83,Brakel,VG7905,Tailandia,2017-05-19 23:17:39,2017-06-01 19:31:24,
+121,Abigail,AU5998,Irlanda,2020-08-07 04:30:03,,descaraga de pescados
+11,Brevdrageren,HI3831,Belgica,2017-07-27 19:51:48,,descarga de cointainers
+40,Adelaide,AL8743,Filipinas,2021-06-06 17:52:09,,se debe cargar petroleo
+155,Alarma,SL2391,Sudafrica,2012-06-27 21:55:54,,se debe cargar petroleo
+124,aboukir,BY5212,Colombia,2021-09-02 15:02:20,,se debe descargar petroleo
+170,Castillo bodiam,CG7403,Japon,2014-06-28 20:35:40,,descaraga de pescados
+10,guysborough,ED5736,Chile,2019-02-19 02:14:08,2019-03-03 01:19:42,
+118,Blanche,RV9799,Dinamarca,2021-01-03 19:07:54,,se debe cargar petroleo
+170,Flor,BB5259,Brasil,2012-03-23 16:16:53,,descaraga de pescados
+215,Actividad,OC4762,Finlandia,2021-06-17 22:08:12,,descaraga de pescados
+6,Blean,ZV9679,Australia,2017-02-09 21:50:19,2017-02-24 21:46:47,
+205,acasta,HV2199,Mexico,2013-03-25 23:52:46,,descarga de cointainers
+121,Acanto,WW2485,Portugal,2021-02-20 12:14:48,,se debe descargar petroleo
+43,brockville,ZV8179,Indonesia,2016-07-16 00:43:30,2016-07-22 20:19:47,
+73,Bottisham,NL7862,Nueva Zelanda,2018-11-02 08:15:23,,descaraga de pescados
+151,Albuera,OB9598,Vietnam,2013-01-12 10:08:13,,se debe cargar petroleo
+194,Brevdrageren,HI3831,Belgica,2018-01-09 09:07:53,,carga de cointainers
+94,Agrega un,RH8308,Dinamarca,2021-01-09 04:49:05,2021-01-15 04:23:52,
+23,Bourdelais,EI5834,Polonia,2019-11-25 23:29:58,,se debe descargar petroleo
+191,Albatros,NX3376,Egipto,2020-12-08 06:17:17,2020-12-09 05:22:08,
+91,Bendicion,PR9667,Noruega,2021-05-01 02:45:37,2021-05-13 19:34:14,
+194,Bellota,YN4644,Islas Malvinas,2021-07-28 01:06:27,,descaraga de pescados
+39,Sumador,YP3858,Nicaragua,2012-11-04 10:40:41,,descaraga de pescados
+134,Dubford,DY6365,Irlanda,2021-07-03 18:49:48,2021-07-04 18:01:32,
+150,acteon,VW7522,Australia,2015-09-21 08:29:50,,descaraga de pescados
+20,Premio dragon,EE2109,Nueva Zelanda,2013-08-12 00:41:31,,carga de cointainers
+162,alberni,KY2131,Paraguay,2020-10-16 09:14:59,,descarga de cointainers
+185,Bumerang,PA1651,Islas Malvinas,2011-07-03 03:35:09,,descaraga de pescados
+187,Bolton Castle,FI2331,Austria,2021-01-11 15:52:07,2021-01-12 06:15:54,
+90,Blyth,OM4230,Paraguay,2011-08-28 05:25:04,,se debe cargar petroleo
+83,Acteon,FS3778,Indonesia,2011-11-21 03:04:28,2011-11-27 02:57:04,
+34,Boxer,IX1197,Italia,2021-04-07 10:04:16,2021-04-22 02:50:58,
+51,Admirable,EI5702,Italia,2015-05-20 15:15:45,2015-05-27 11:14:41,
+162,Adversario,MO4968,España,2018-12-22 18:00:59,,descaraga de pescados
+188,Alcantara,GF5994,España,2019-01-05 19:11:37,,se debe descargar petroleo
+120,Floracion,BZ3311,Noruega,2020-07-10 20:56:26,,descarga de cointainers
+134,Brillante,HF4402,Austria,2015-04-12 01:49:38,2015-04-24 18:12:55,
+135,Brinton,OA5815,Islas Malvinas,2015-08-22 18:46:19,2015-08-27 10:56:41,
+64,achates,WF7217,Islas Malvinas,2021-04-05 12:45:43,,descarga de cointainers
+78,Castillo bridgnorth,TS8958,Indonesia,2010-11-08 16:33:42,,descaraga de pescados
+38,Bowen,AI9121,Jamaica,2012-01-13 07:29:40,2012-01-24 07:24:51,
+167,Descarado,RO9221,Cuba,2017-06-13 13:12:45,2017-06-17 10:01:53,
+164,Aberdeen,EH9187,Qatar,2021-08-31 15:11:51,2021-09-01 12:10:36,
+148,Premio Dreadnought,NT2280,Colombia,2021-01-21 15:59:22,,se debe cargar petroleo
+113,Alarma,SL2391,Sudafrica,2018-01-24 22:50:57,2018-02-08 18:10:36,
+3,brantford,RP8314,Ecuador,2021-08-07 07:28:27,,descarga de cointainers
+204,Frontera,XH5466,Australia,2021-06-29 12:15:27,,descarga de cointainers
+22,albury,VR7517,Islas Malvinas,2021-03-19 17:04:57,,se debe descargar petroleo
+147,Calypso,VI4743,Canada,2013-07-29 17:08:33,,descaraga de pescados
+148,Castillo bodiam,CG7403,Japon,2018-07-08 22:02:32,,descaraga de pescados
+23,Castillo bridgnorth,TS8958,Indonesia,2021-06-24 13:09:23,,descaraga de pescados
+177,Abigail,AU5998,Irlanda,2020-03-10 11:36:11,,descaraga de pescados
+119,Bravo,EV7485,Qatar,2021-06-13 13:10:02,,se debe cargar petroleo
+89,Bronington,LV7419,Qatar,2013-02-02 03:29:01,,se debe descargar petroleo
+153,Bleasdale,SV9482,Panama,2016-05-27 19:07:36,,descaraga de pescados
+146,albacora,QL4591,Siria,2020-09-24 10:14:01,2020-09-28 10:08:02,
+22,Activo,OJ8771,España,2020-11-25 00:18:10,,se debe descargar petroleo
+109,abergavenny,LA5643,Siria,2021-06-10 07:00:54,2021-06-11 03:28:19,
+20,brearley,FO3430,India,2014-07-27 12:41:09,,descaraga de pescados
+151,Sabueso,HW2014,Colombia,2011-06-29 08:38:14,,descaraga de pescados
+123,Bravo,EV7485,Qatar,2020-11-07 06:33:19,,se debe cargar petroleo
+44,Adan y Eva,XP9141,Jamaica,2020-09-21 07:31:18,2020-09-21 21:52:03,
+42,downham,CE1914,Corea,2020-11-04 12:02:39,,se debe descargar petroleo
+17,Bravo,EV7485,Qatar,2017-03-21 21:44:15,,se debe descargar petroleo
+120,Acacia,XK7318,Argentina,2011-03-06 16:50:45,,descaraga de pescados
+9,acteon,VW7522,Australia,2014-02-04 23:00:16,2014-02-14 19:30:27,
+122,Braak,LD3618,Republica Dominicana,2015-05-26 20:38:50,2015-06-01 20:20:34,
+182,Alcaston,HF1544,Jamaica,2015-12-28 22:11:40,2016-01-07 17:22:44,
+132,Boulston,HH5472,Republica Dominicana,2021-04-20 14:54:53,,descaraga de pescados
+102,Madera negra,MN1612,Italia,2020-09-14 12:17:58,,descaraga de pescados
+178,dubbo,QJ1463,Tailandia,2017-09-22 14:26:16,,se debe descargar petroleo
+160,Bendicion,PR9667,Noruega,2016-10-21 01:38:25,,carga de cointainers
+193,Bourdelais,EI5834,Polonia,2010-05-11 22:19:11,,se debe cargar petroleo
+99,drummondville,FE1567,Panama,2018-07-06 22:16:39,2018-07-13 13:45:18,
+188,Pato,ZC6249,Brasil,2020-11-13 12:28:45,,se debe cargar petroleo
+59,Brecon,LR2069,Panama,2021-02-25 23:34:30,,se debe descargar petroleo
+102,Brevdrageren,HI3831,Belgica,2020-10-19 02:27:55,,carga de cointainers
+102,Braave,IF9396,Portugal,2020-08-19 13:30:38,,se debe descargar petroleo
+195,Boxer,IX1197,Italia,2013-06-18 07:54:37,2013-06-28 23:27:05,
+86,Bravo,EV7485,Qatar,2021-02-23 05:12:12,,se debe descargar petroleo
+145,Agamenon,CI3218,Siria,2021-01-18 22:09:01,,se debe descargar petroleo
+15,Abundancia,VX5561,Estados Unidos,2021-01-12 14:47:25,2021-01-13 08:54:34,
+192,Boscawen,OF5460,Chile,2016-04-27 13:08:05,,carga de cointainers
+38,Premio Dreadnought,NT2280,Colombia,2021-07-05 10:15:10,2021-07-06 06:26:23,
+173,Bergantin,TG8958,España,2014-11-09 20:45:05,,descaraga de pescados
+103,Albany,FM3163,Finlandia,2011-08-08 03:47:36,,descaraga de pescados
+53,Bonavoila,UE6214,Ecuador,2014-11-12 12:01:25,2014-11-24 04:51:12,
+112,Boulston,HH5472,Republica Dominicana,2017-02-10 14:47:09,2017-02-18 06:52:37,
+127,Aconito,OT5458,Mexico,2012-08-11 18:46:13,,descarga de cointainers
+156,Aventuras,GS7205,España,2013-08-21 00:14:12,,descaraga de pescados
+6,Brezo,UO8744,Paraguay,2021-06-17 01:52:24,2021-06-17 22:20:20,
+90,Boulston,HH5472,Republica Dominicana,2011-11-13 17:48:15,,descaraga de pescados
+126,Adur,OF5956,Egipto,2021-07-08 06:01:34,2021-07-09 03:24:01,
+92,Eneas,MU6547,Sudafrica,2021-02-14 12:26:47,,carga de cointainers
+19,Bolton,YB3879,Austria,2010-06-02 12:56:51,,se debe descargar petroleo
+99,Achille,UW2735,Austria,2019-05-20 20:38:51,2019-05-25 11:35:23,
+188,Bolebroke,HH5023,Republica Dominicana,2020-12-26 16:37:46,,carga de cointainers
+45,Broadway,OH1392,Jamaica,2021-05-13 18:57:35,2021-05-18 17:06:56,
+24,Albanaise,QI7769,Japon,2015-04-29 08:42:43,,se debe cargar petroleo
+150,Brocklesby,PV6712,Paraguay,2021-02-08 07:00:31,,se debe cargar petroleo
+122,Conductor,PZ1913,Nueva Zelanda,2012-06-21 03:27:59,2012-06-27 19:57:49,
+161,Braak,LD3618,Republica Dominicana,2011-11-12 11:19:25,,se debe cargar petroleo
+151,Castillo bodiam,CG7403,Japon,2020-02-26 05:46:15,,descaraga de pescados
+14,Alarma,SL2391,Sudafrica,2021-07-20 08:58:56,,se debe cargar petroleo
+180,Branlebas,DQ3759,India,2013-10-27 18:19:08,2013-11-01 14:56:51,
+151,Brixham,WK4832,Brasil,2012-06-27 15:20:50,,se debe descargar petroleo
+65,Affleck,AU6167,Argentina,2014-01-04 23:22:27,,carga de cointainers
+168,Bravo,EV7485,Qatar,2020-11-23 03:14:28,2020-11-24 03:02:28,
+27,Energico,CC4639,Polonia,2016-03-22 13:59:32,,descaraga de pescados
+149,Habil,HB3228,Singapur,2011-07-27 23:45:41,,se debe cargar petroleo
+85,Agua Negra,KC2936,Noruega,2021-05-14 15:32:18,,se debe descargar petroleo
+207,Brissenden,UZ5981,Cuba,2011-01-09 02:43:25,,se debe cargar petroleo
+68,Adonis,HE7029,India,2020-03-18 10:24:46,,se debe cargar petroleo
+156,Alberta,FU8868,Panama,2019-11-11 14:41:34,,descaraga de pescados
+89,Brezo,UO8744,Paraguay,2016-11-14 03:19:27,,descaraga de pescados
+145,alberni,KY2131,Paraguay,2017-12-04 23:56:11,,descarga de cointainers
+133,Alban,BF7024,Finlandia,2013-11-15 05:24:18,2013-11-28 00:22:08,
+136,Premio brillante,IT1233,Filipinas,2012-11-11 01:48:27,2012-11-22 22:01:52,
+215,Abdiel,PM8536,Canada,2016-08-20 23:18:56,,descaraga de pescados
+189,Alberta,FU8868,Panama,2015-04-13 02:06:49,2015-04-25 20:44:18,
+54,Brandon,FA3127,Chile,2011-11-29 07:23:58,,se debe cargar petroleo
+55,Penelope,DS0478,Chile,2015-06-25 19:46:24,,carga de cointainers
+213,Premio Dover,KH8053,Belgica,2014-10-19 08:06:22,2014-10-28 07:34:07,
+28,Alarico,LW4637,Brasil,2010-03-11 00:26:24,,descarga de cointainers
+145,Aconito,OT5458,Mexico,2015-08-09 18:41:46,,carga de cointainers
+181,Boscawen,OF5460,Chile,2018-02-17 12:50:16,2018-02-28 05:42:52,
+71,Agua Negra,KC2936,Noruega,2012-03-05 16:44:00,,se debe cargar petroleo
+72,Brecon,LR2069,Panama,2020-10-13 02:41:08,2020-10-13 23:41:42,
+188,Bogam,WX5990,Argentina,2021-07-04 20:42:59,,carga de cointainers
+115,Breconshire,GJ5946,Noruega,2020-02-09 14:53:37,,carga de cointainers
+156,Brezo,UO8744,Paraguay,2021-05-30 22:59:28,,descaraga de pescados
+151,Albatros,NX3376,Egipto,2014-12-10 12:58:57,,carga de cointainers
+179,Bossington,EB3227,Peru,2018-09-08 22:43:03,2018-09-16 14:26:47,
+113,Boxer,IX1197,Italia,2021-01-16 12:18:04,2021-01-17 06:44:22,
+129,Almirante Farragut,YG2900,Sudafrica,2018-06-12 17:19:21,,descarga de cointainers
+97,Britania,DT6703,Finlandia,2015-05-27 07:02:54,,se debe cargar petroleo
+199,Eneas,MU6547,Sudafrica,2013-06-18 20:23:35,,carga de cointainers
+136,Alban,BF7024,Finlandia,2020-10-01 15:08:05,2020-10-02 06:18:57,
+0,brearley,FO3430,India,2012-04-03 07:33:44,,descaraga de pescados
+64,aventura Galera,PU5101,Peru,2013-08-22 02:07:11,,descaraga de pescados
+52,Habil,HB3228,Singapur,2017-08-02 17:21:11,,se debe descargar petroleo
+111,Brereton,WF3051,Singapur,2021-06-07 14:27:48,2021-06-08 05:51:34,
+65,Blankney,TJ7818,Portugal,2015-09-11 20:36:48,,se debe cargar petroleo
+11,Blickling,MZ2239,Egipto,2018-04-14 00:36:45,,se debe cargar petroleo
+44,Blanche,RV9799,Dinamarca,2011-07-06 16:33:06,2011-07-14 16:06:27,
+102,Chaqueta de sport,AM9504,Paraguay,2013-09-03 07:39:14,,descarga de cointainers
+79,Bravucon,KQ3854,Nicaragua,2020-08-11 10:04:04,2020-08-17 01:52:38,
+108,Braak,LD3618,Republica Dominicana,2020-11-27 02:42:01,2020-11-30 19:21:56,
+37,Abelardo,LS5992,Costa Rica,2020-11-01 17:45:43,,descaraga de pescados
+157,Boyne,YB1434,Belgica,2010-09-01 06:59:50,2010-09-07 23:05:28,
+193,Albuera,OB9598,Vietnam,2017-10-24 23:02:26,,se debe cargar petroleo
+11,brigandine,BN3951,Italia,2020-10-21 05:15:48,,carga de cointainers
+3,brearley,FO3430,India,2016-08-21 06:55:26,,descaraga de pescados
+61,Activo,OJ8771,España,2018-03-05 03:05:07,,se debe descargar petroleo
+208,BLAIRMORE,OE1789,Argentina,2010-06-03 14:38:40,,carga de cointainers
+179,Bligh,WI9449,Suiza,2013-10-02 23:29:26,2013-10-11 14:24:05,
+101,Adelaide,AL8743,Filipinas,2017-07-12 08:34:35,2017-07-16 07:10:27,
+150,druida,OO2266,Qatar,2012-05-14 11:21:05,,descaraga de pescados
+145,Boxer,IX1197,Italia,2016-04-01 06:49:02,,descaraga de pescados
+166,abergavenny,LA5643,Siria,2021-01-18 01:11:17,2021-01-19 01:07:33,
+49,gitano,YT2845,Mexico,2017-07-27 15:51:37,2017-07-31 10:23:40,
+134,Chaqueta de sport,AM9504,Paraguay,2021-04-09 21:23:48,2021-04-14 13:13:42,
+122,Aberfoyle,EY2745,Japon,2019-04-02 05:26:23,2019-04-08 04:19:00,
+206,Boulogne,PV7666,Austria,2017-08-04 08:48:24,,se debe cargar petroleo
+81,Premio Dover,KH8053,Belgica,2020-10-23 11:37:53,,descaraga de pescados
+68,Albemarle,XG7925,Filipinas,2021-06-25 07:28:16,,carga de cointainers
+21,Boxer,IX1197,Italia,2014-10-02 20:18:54,,descaraga de pescados
+131,Acteon,FS3778,Indonesia,2021-04-28 06:52:45,2021-04-29 01:47:30,
+8,Bonetta,IJ4552,Mexico,2021-06-04 11:29:28,2021-06-16 07:24:46,
+32,Brinton,OA5815,Islas Malvinas,2014-08-04 06:30:06,2014-08-12 22:29:25,
+10,Boscawen,OF5460,Chile,2021-03-02 20:16:13,2021-03-03 13:42:59,
+24,Brigham,RK9162,Argentina,2020-10-16 15:36:57,,descaraga de pescados
+16,Bombay,MN4984,Japon,2014-06-06 11:02:55,,se debe descargar petroleo
+69,Abeille,VC7492,Singapur,2017-11-11 02:39:34,2017-11-14 17:38:09,
+187,albacora,QL4591,Siria,2011-03-08 22:03:18,2011-03-19 17:02:22,
+9,brearley,FO3430,India,2015-01-12 17:27:56,2015-01-25 09:18:14,
+102,Brighton,NQ5495,Panama,2021-06-11 09:49:42,,se debe descargar petroleo
+32,Agrega un,RH8308,Dinamarca,2021-06-02 15:20:26,2021-06-03 11:29:20,
+178,Brissenden,UZ5981,Cuba,2020-04-01 06:20:10,,se debe descargar petroleo
+211,pechiazul,RY9242,Canada,2012-10-08 09:49:15,,se debe descargar petroleo
+19,Affleck,AU6167,Argentina,2014-11-28 14:41:08,,descarga de cointainers
+125,Adepto,KM2551,Republica Dominicana,2010-12-22 18:00:49,,se debe cargar petroleo
+91,Bronington,LV7419,Qatar,2016-05-14 02:14:56,2016-05-23 19:32:58,
+68,Albert,MW6341,Tailandia,2019-12-31 23:27:42,,se debe descargar petroleo
+32,Generosidad,QC1164,España,2017-11-21 06:50:06,2017-12-03 06:32:09,
+104,Braithwaite,LW6201,Japon,2013-07-14 16:38:30,2013-07-21 11:20:39,
+176,Blankney,TJ7818,Portugal,2011-02-03 04:03:40,2011-02-13 01:37:34,
+155,Adelaide,AL8743,Filipinas,2021-05-13 09:06:10,,se debe cargar petroleo
+24,Abercrombie,LX6914,Qatar,2018-06-24 22:50:11,,se debe cargar petroleo
+16,Brillante,HF4402,Austria,2011-03-25 10:22:20,,descarga de cointainers
+210,Asesor,VT2032,Austria,2017-04-23 18:57:02,,descaraga de pescados
+154,briseis,WC2925,Costa Rica,2010-12-08 13:49:10,,carga de cointainers
+142,Brigham,RK9162,Argentina,2017-04-16 11:20:17,,descaraga de pescados
+71,britanico,YW8268,Cuba,2020-12-26 05:00:40,,descarga de cointainers
+87,Bendicion,PR9667,Noruega,2018-07-31 15:08:17,2018-08-13 09:30:44,
+25,Bumerang,PA1651,Islas Malvinas,2021-03-13 17:25:18,2021-03-14 15:34:41,
+128,Premio dragon,EE2109,Nueva Zelanda,2020-12-08 08:15:25,2020-12-11 22:55:56,
+196,Boreas,VH2584,Ecuador,2020-06-16 23:27:55,,carga de cointainers
+19,Consejo,BI5654,Peru,2020-10-11 18:15:20,,descarga de cointainers
+43,Blyth,OM4230,Paraguay,2021-02-17 11:29:21,2021-03-01 03:10:00,
+140,Calypso,VI4743,Canada,2013-02-28 03:50:49,2013-03-13 21:55:37,
+184,Blandford,IV2746,Argentina,2016-10-04 08:50:56,2016-10-13 08:24:52,
+8,acheron,BN4195,Costa Rica,2014-09-23 15:51:10,2014-09-28 09:47:07,
+88,britanico,YW8268,Cuba,2020-08-12 18:25:54,2020-08-18 16:17:37,
+19,britomart,JR2308,Tailandia,2010-02-09 11:36:53,,descaraga de pescados
+151,Libelula,RQ2918,Dinamarca,2020-11-20 00:46:32,,descaraga de pescados
+40,Activo,OJ8771,España,2015-08-03 08:03:41,,se debe descargar petroleo
+173,brenchley,VY5330,Australia,2012-08-27 04:08:27,,descaraga de pescados
+72,Bowen,AI9121,Jamaica,2011-12-29 14:40:54,2012-01-06 07:20:57,
+56,Abelia,PJ5481,Argentina,2017-01-04 03:00:39,2017-01-09 02:31:36,
+203,Boston,IH6707,Nicaragua,2021-06-19 08:18:04,2021-06-20 02:01:29,
+115,drummondville,FE1567,Panama,2014-05-29 09:53:21,,descarga de cointainers
+191,Habil,HB3228,Singapur,2010-09-16 12:32:35,2010-09-25 06:48:46,
+28,Brecon,LR2069,Panama,2015-01-26 13:09:04,,se debe cargar petroleo
+180,Bridgewater,DV6261,Belgica,2014-02-12 18:11:13,2014-02-23 15:40:21,
+85,Alban,BF7024,Finlandia,2012-07-04 22:56:10,,descaraga de pescados
+156,Dromedario,GE9618,Colombia,2015-09-26 17:21:30,,se debe descargar petroleo
+87,Energico,CC4639,Polonia,2021-07-25 12:54:03,2021-07-26 06:06:08,
+36,guysborough,ED5736,Chile,2020-05-05 16:21:31,2020-05-09 13:47:05,
+193,Bristol,DK4889,Portugal,2016-12-06 02:47:30,,carga de cointainers
+208,Albrighton,GT9752,España,2020-09-21 04:29:46,,se debe descargar petroleo
+32,Abundante,ON7101,Argentina,2020-10-14 22:20:18,2020-10-26 18:43:58,
+205,achates,WF7217,Islas Malvinas,2017-11-13 10:30:03,,descarga de cointainers
+180,As,ID7819,Panama,2016-03-01 12:21:36,2016-03-13 02:31:15,
+143,Albert,MW6341,Tailandia,2021-08-07 02:44:03,2021-08-07 18:37:12,
+60,Activo,OJ8771,España,2020-11-09 11:37:46,2020-11-10 09:54:44,
+116,magnolia,ZP4420,Chile,2021-01-28 11:27:56,2021-01-29 10:52:39,
+178,blencathra,UL8619,India,2021-08-28 00:32:31,,descaraga de pescados
+108,abondance,MO4425,Filipinas,2019-02-24 09:17:44,2019-03-07 02:53:43,
+12,Aetna,IG9597,Indonesia,2012-05-12 02:19:07,,descaraga de pescados
+4,Gurkha,TQ5114,Finlandia,2013-09-28 22:31:23,2013-10-08 18:23:43,
+19,Alarma,SL2391,Sudafrica,2020-11-11 00:02:58,,se debe cargar petroleo
+209,Aconito,OT5458,Mexico,2021-08-05 17:59:49,2021-08-06 13:20:29,
+147,Borraja,RC8468,Estados Unidos,2011-09-17 17:23:25,,descaraga de pescados
+19,Blakeney,MZ9845,Italia,2014-04-26 19:41:22,,descaraga de pescados
+206,broadwater,GS9663,Polonia,2020-11-13 02:05:05,,descarga de cointainers
+45,Continuar,UY2987,Islas Malvinas,2021-02-21 04:52:26,2021-02-21 23:35:09,
+192,Admirable,EI5702,Italia,2013-03-02 01:30:23,,se debe descargar petroleo
+24,druida,OO2266,Qatar,2021-04-13 16:19:39,,descaraga de pescados
+80,Brighton,NQ5495,Panama,2019-05-11 10:25:59,,se debe cargar petroleo
+20,Albatros,NX3376,Egipto,2021-06-24 03:33:47,,descarga de cointainers
+173,Afridi,PZ3477,Nicaragua,2012-08-16 13:42:32,,carga de cointainers
+158,Consejo,BI5654,Peru,2021-06-11 16:25:26,2021-06-12 09:10:43,
+24,Brixham,WK4832,Brasil,2015-07-12 18:05:30,,se debe cargar petroleo
+166,Broaderschap,NN8091,Jamaica,2014-05-16 20:12:27,2014-05-28 13:54:04,
+6,Alberta,FU8868,Panama,2021-06-06 01:54:17,2021-06-07 01:28:49,
+96,gympie,HP3120,Panama,2020-04-07 03:41:53,,se debe descargar petroleo
+116,Brema,TR8211,Australia,2021-06-23 21:19:52,2021-06-24 20:59:58,
+113,Bramham,GS9404,Filipinas,2011-03-10 20:16:32,2011-03-16 17:49:35,
+115,Alarma,SL2391,Sudafrica,2020-11-18 00:28:16,,se debe descargar petroleo
+13,Broaderschap,NN8091,Jamaica,2021-05-25 21:38:22,2021-05-26 14:38:54,
+69,Agua Negra,KC2936,Noruega,2014-04-25 11:42:06,2014-05-03 07:14:14,
+162,Blaxton,OF1501,Noruega,2019-04-21 23:47:33,,descaraga de pescados
+215,blencathra,UL8619,India,2017-06-25 06:43:17,,descaraga de pescados
+182,Blake,WD8846,Noruega,2020-09-23 01:18:31,2020-09-23 19:24:42,
+31,Aberford,ST8633,Mexico,2020-10-29 20:57:11,2020-10-30 16:30:47,
+178,Castillo de Bowes,YE6286,Argentina,2017-11-28 08:44:18,,descaraga de pescados
+64,Abundante,ON7101,Argentina,2020-12-01 10:03:20,,descarga de cointainers
+34,Bergantin,TG8958,España,2020-09-11 23:06:48,2020-09-25 17:11:58,
+116,Blakeney,MZ9845,Italia,2020-12-17 00:12:33,2020-12-17 16:09:58,
+125,Acacia,XK7318,Argentina,2019-06-24 20:18:16,,descaraga de pescados
+211,Borraja,RC8468,Estados Unidos,2020-03-06 04:46:32,,descaraga de pescados
+1,Consejo,BI5654,Peru,2015-01-26 01:46:05,,carga de cointainers
+90,Bombardear,OY7209,Reino Unido,2018-04-08 17:00:41,,carga de cointainers
+108,Aquiles,EF7582,Belgica,2021-06-20 01:14:23,2021-06-26 15:35:53,
+42,Bonne Ciudadana,YC1851,Austria,2017-04-07 19:58:33,,descaraga de pescados
+199,Buenaventura,PJ8392,Republica Dominicana,2020-10-20 06:32:42,,descaraga de pescados
+208,Dromedario,GE9618,Colombia,2019-08-03 19:37:23,,se debe descargar petroleo
+11,Blanche,RV9799,Dinamarca,2018-10-21 09:11:29,,se debe cargar petroleo
+68,guysborough,ED5736,Chile,2020-11-19 01:15:38,,se debe descargar petroleo
+103,Affleck,AU6167,Argentina,2015-10-11 19:53:46,,descarga de cointainers
+91,Madera negra,MN1612,Italia,2021-02-09 13:00:47,2021-02-10 12:03:18,
+183,Dubford,DY6365,Irlanda,2020-04-22 22:54:24,2020-05-05 18:14:58,
+65,Drochterland,NN2774,Tailandia,2014-03-25 17:46:04,,carga de cointainers
+37,Blakeney,MZ9845,Italia,2014-08-15 08:57:26,,descaraga de pescados
+202,Brampton,HE8199,Jamaica,2013-02-25 09:16:08,2013-03-12 05:27:38,
+214,Bootle,XL6992,Costa Rica,2021-04-29 23:04:01,2021-04-30 20:02:07,
+137,Bonetta,IJ4552,Mexico,2020-11-22 19:12:49,2020-11-23 13:01:20,
+207,Avanzar,SG9128,Japon,2020-12-10 10:47:40,,descarga de cointainers
+118,Broadway,OH1392,Jamaica,2016-12-25 01:04:05,,se debe descargar petroleo
+72,Aladdin,UH6836,Portugal,2015-07-05 16:29:02,2015-07-15 15:22:35,
+184,Almirantazgo,TO8113,Austria,2021-06-04 09:18:23,2021-06-05 00:53:17,
+145,Blandford,IV2746,Argentina,2013-08-18 23:22:03,,se debe descargar petroleo
+125,Acorazado,GC3280,Islas Malvinas,2021-06-02 05:22:15,,descaraga de pescados
+40,druida,OO2266,Qatar,2021-01-26 17:30:16,,descaraga de pescados
+118,Bradfield,AY3986,Islas Malvinas,2021-02-14 15:48:52,,se debe cargar petroleo
+17,Energico,CC4639,Polonia,2019-02-25 02:17:31,,descaraga de pescados
+43,Brock,NP8695,Filipinas,2020-09-12 22:50:48,2020-09-13 21:40:55,
+144,downham,CE1914,Corea,2012-02-28 00:06:12,,se debe cargar petroleo
+112,Calypso,VI4743,Canada,2012-10-29 09:13:42,2012-11-06 03:14:21,
+92,Aberford,ST8633,Mexico,2012-08-24 04:16:03,,descaraga de pescados
+64,Zarza,MY3367,Portugal,2011-06-26 21:11:00,,descarga de cointainers
+138,Aetna,IG9597,Indonesia,2012-09-11 23:28:05,,descaraga de pescados
+100,Aberford,ST8633,Mexico,2020-12-05 09:06:20,2020-12-06 05:04:02,
+140,Esclava,VI7863,Chile,2019-06-29 01:19:19,2019-07-03 22:14:52,
+75,Aventuras,GS7205,España,2010-01-09 01:13:59,2010-01-18 15:43:36,
+64,brantford,RP8314,Ecuador,2010-08-21 08:11:29,,descarga de cointainers
+105,Castillo bridgnorth,TS8958,Indonesia,2020-03-28 09:51:46,2020-04-07 00:22:20,
+173,abondance,MO4425,Filipinas,2017-03-19 13:02:11,,descaraga de pescados
+1,brenchley,VY5330,Australia,2019-05-25 21:14:14,,descaraga de pescados
+45,Brezo,UO8744,Paraguay,2020-11-24 19:10:49,2020-11-25 15:58:43,
+82,Botha,DA9671,Suiza,2020-12-27 07:33:12,2021-01-02 22:36:36,
+115,Espada,OR9516,Singapur,2021-01-15 06:04:58,,se debe cargar petroleo
+105,Blean,ZV9679,Australia,2019-07-25 20:22:49,2019-08-03 17:35:20,
+212,Pato,ZC6249,Brasil,2020-01-29 11:13:33,,se debe cargar petroleo
+25,Bridport,HK6767,Sudafrica,2021-07-08 05:07:19,2021-07-08 21:20:26,
+156,Bumerang,PA1651,Islas Malvinas,2019-10-19 21:50:09,,descaraga de pescados
+67,Bendicion,PR9667,Noruega,2021-04-27 20:40:08,2021-04-28 17:01:25,
+48,Abercrombie,LX6914,Qatar,2015-05-28 14:19:48,2015-06-11 08:51:17,
+56,achates,WF7217,Islas Malvinas,2021-05-08 22:19:54,2021-05-15 16:18:52,
+83,Aberdeen,EH9187,Qatar,2021-02-02 23:54:12,2021-02-03 20:31:04,
+84,Brixham,WK4832,Brasil,2020-05-28 18:51:36,,se debe descargar petroleo
+204,Albrighton,GT9752,España,2014-05-01 01:12:30,,se debe descargar petroleo
+37,Brinkley,FN4513,Qatar,2011-10-08 14:25:18,,descarga de cointainers
+42,Abbotsham,ZX2922,India,2015-04-06 07:29:48,,descaraga de pescados
+185,acasta,HV2199,Mexico,2021-09-01 04:05:01,,carga de cointainers
+159,Blyth,OM4230,Paraguay,2014-03-25 04:24:54,2014-04-05 03:03:51,
+206,Africa,RK2324,Republica Dominicana,2015-12-30 21:05:41,,se debe descargar petroleo
+84,Admirable,EI5702,Italia,2016-03-11 23:23:05,,se debe descargar petroleo
+77,Asesor,VT2032,Austria,2020-09-21 06:54:51,,descaraga de pescados
+143,Abdiel,PM8536,Canada,2016-05-21 00:39:16,2016-05-27 18:22:59,
+87,Blenheim,LF8633,Suiza,2016-09-12 16:32:55,2016-09-19 16:32:35,
+143,Albany,FM3163,Finlandia,2015-09-18 05:53:00,2015-09-21 23:00:25,
+59,Albian,UH1378,Sudafrica,2012-05-06 10:41:34,,se debe descargar petroleo
+125,Abigail,AU5998,Irlanda,2016-02-23 21:23:23,,descaraga de pescados
+183,Braithwaite,LW6201,Japon,2012-07-30 02:18:21,2012-08-04 18:05:29,
+76,Abelia,PJ5481,Argentina,2021-02-13 04:02:15,2021-02-13 21:33:33,
+75,Bossington,EB3227,Peru,2017-03-01 07:00:00,2017-03-06 00:06:48,
+137,pechiazul,RY9242,Canada,2015-12-28 14:26:52,2016-01-08 13:48:50,
+108,gympie,HP3120,Panama,2017-03-08 15:29:41,2017-03-22 05:49:56,
+62,Albanaise,QI7769,Japon,2013-01-26 10:02:34,,se debe descargar petroleo
+22,brockville,ZV8179,Indonesia,2016-08-09 04:23:49,,se debe cargar petroleo
+182,Brillante,HF4402,Austria,2021-01-04 14:48:25,2021-01-09 12:21:48,
+65,Albatros,NX3376,Egipto,2015-04-14 10:03:58,,descarga de cointainers
+26,Brinkley,FN4513,Qatar,2011-09-12 10:10:14,,carga de cointainers
+28,Premio Dover,KH8053,Belgica,2015-10-07 03:27:49,,descaraga de pescados
+208,Brinkley,FN4513,Qatar,2016-05-02 02:38:23,,carga de cointainers
+63,Alcantara,GF5994,España,2015-02-27 13:35:47,2015-03-08 13:33:18,
+42,Boulogne,PV7666,Austria,2020-04-15 15:56:43,,se debe descargar petroleo
+163,Bourdelais,EI5834,Polonia,2021-08-18 22:09:18,,se debe cargar petroleo
+93,Acacia,XK7318,Argentina,2018-11-23 19:39:22,2018-11-30 14:59:08,
+212,Castillo bridgnorth,TS8958,Indonesia,2020-11-23 06:42:57,,descaraga de pescados
+23,Adelaide,AL8743,Filipinas,2016-03-12 01:58:28,,se debe cargar petroleo
+11,Acorazado,GC3280,Islas Malvinas,2018-07-02 04:55:43,,descaraga de pescados
+96,Boyne,YB1434,Belgica,2017-09-22 14:40:13,,descaraga de pescados
+192,Abrahan,EG8528,Brasil,2020-10-11 07:01:08,,descaraga de pescados
+64,acteon,VW7522,Australia,2014-01-19 20:53:45,,descaraga de pescados
+66,Braave,IF9396,Portugal,2021-08-01 14:16:38,2021-08-02 07:30:03,
+196,Albrighton,GT9752,España,2020-12-02 16:55:30,,se debe descargar petroleo
+27,Resplandor,BY4314,Suiza,2021-02-03 15:23:39,,se debe descargar petroleo
+28,guysborough,ED5736,Chile,2013-12-16 01:14:47,,se debe cargar petroleo
+8,Brezo,UO8744,Paraguay,2010-10-07 00:36:28,2010-10-10 22:57:26,
+86,Bridlington,LN8777,Tailandia,2021-01-05 07:58:19,,descaraga de pescados
+55,Bonne Ciudadana,YC1851,Austria,2021-05-31 06:14:19,,descaraga de pescados
+73,Sumador,YP3858,Nicaragua,2012-07-16 10:05:09,,descaraga de pescados
+65,Bonetta,IJ4552,Mexico,2016-08-25 04:30:33,,se debe cargar petroleo
+36,Brighton,NQ5495,Panama,2015-10-29 08:12:01,2015-11-07 22:15:19,
+82,Downley,RW4421,Suiza,2012-06-25 09:33:40,2012-06-30 00:13:33,
+29,Castillo bridgnorth,TS8958,Indonesia,2021-02-07 23:12:54,2021-02-08 22:11:50,
+138,Boulston,HH5472,Republica Dominicana,2021-01-03 22:31:16,,descaraga de pescados
+150,Activo,OJ8771,España,2021-03-11 23:51:30,,se debe descargar petroleo
+213,Afrikander,GM1638,Islas Malvinas,2021-02-25 14:41:12,2021-02-26 13:30:30,
+17,bodenham,II3534,Noruega,2016-09-27 19:23:17,,descaraga de pescados
+212,Adepto,KM2551,Republica Dominicana,2020-08-08 21:15:16,,se debe descargar petroleo
+12,Driada,LI5894,Singapur,2016-11-04 07:30:13,,descaraga de pescados
+83,Aberfoyle,EY2745,Japon,2019-07-13 21:16:24,2019-07-18 13:28:18,
+192,Brillante,HF4402,Austria,2011-06-20 11:03:39,,descarga de cointainers
+189,Boscawen,OF5460,Chile,2021-02-22 17:46:54,2021-03-09 13:58:27,
+150,Brereton,WF3051,Singapur,2014-04-08 19:59:34,,carga de cointainers
+103,Espada,OR9516,Singapur,2021-08-05 21:51:28,,se debe descargar petroleo
+10,Africa,RK2324,Republica Dominicana,2016-09-11 08:02:27,2016-09-16 22:29:04,
+39,abergavenny,LA5643,Siria,2020-08-11 01:14:38,,se debe descargar petroleo
+69,Almirante Farragut,YG2900,Sudafrica,2017-07-02 12:13:41,2017-07-06 06:59:10,
+189,Descarado,RO9221,Cuba,2021-06-15 13:47:35,2021-06-16 06:22:30,
+101,Alarma,SL2391,Sudafrica,2020-12-01 22:58:35,2020-12-02 20:07:47,
+12,Acertif,QA2495,Nueva Zelanda,2021-07-26 04:38:05,,descaraga de pescados
+172,Premio Dover,KH8053,Belgica,2014-06-10 14:11:17,,descaraga de pescados
+9,Drochterland,NN2774,Tailandia,2017-01-08 21:29:22,2017-01-20 12:26:03,
+78,Abelia,PJ5481,Argentina,2010-09-18 10:35:00,,descarga de cointainers
+208,Castillo bridgnorth,TS8958,Indonesia,2020-07-21 11:03:19,,descaraga de pescados
+77,Blakeney,MZ9845,Italia,2015-11-01 09:12:02,,descaraga de pescados
+37,abondance,MO4425,Filipinas,2020-12-29 23:57:01,,descaraga de pescados
+112,Aberdeen,EH9187,Qatar,2015-04-23 07:46:05,2015-05-03 07:07:39,
+85,acteon,VW7522,Australia,2017-01-09 05:21:41,,descaraga de pescados
+116,Descarado,RO9221,Cuba,2021-02-22 18:18:32,2021-03-06 16:32:23,
+34,achates,WF7217,Islas Malvinas,2015-09-24 16:59:59,2015-10-06 11:04:59,
+84,Brampton,HE8199,Jamaica,2010-05-25 00:27:38,,carga de cointainers
+130,Aquiles,EF7582,Belgica,2021-05-04 06:11:53,,carga de cointainers
+144,Energico,CC4639,Polonia,2017-12-16 16:16:17,,descaraga de pescados
+36,bodenham,II3534,Noruega,2021-05-28 02:51:06,2021-06-07 17:10:52,
+124,Gurkha,TQ5114,Finlandia,2012-07-14 20:14:06,,descarga de cointainers
+62,Valiente,YX2002,Islas Malvinas,2010-08-12 00:43:27,,descaraga de pescados
+152,brenchley,VY5330,Australia,2021-07-03 19:08:51,,descaraga de pescados
+171,Admirable,EI5702,Italia,2019-01-18 08:54:48,,se debe descargar petroleo
+181,Drury,DG5218,Filipinas,2011-10-31 10:57:26,2011-11-14 05:12:49,
+204,Albian,UH1378,Sudafrica,2021-03-09 19:08:47,,se debe descargar petroleo
+187,Gulnare,OI4579,Egipto,2021-08-05 12:11:54,2021-08-06 03:51:22,
+196,Calypso,VI4743,Canada,2017-07-12 23:19:30,,descaraga de pescados
+33,Buenaventura,PJ8392,Republica Dominicana,2013-01-21 13:04:41,2013-02-03 03:21:53,
+53,Blankney,TJ7818,Portugal,2021-06-03 11:35:38,2021-06-04 09:14:03,
+12,Libelula,RQ2918,Dinamarca,2010-09-08 03:27:04,,descaraga de pescados
+37,Consejo,BI5654,Peru,2021-03-06 19:20:11,,carga de cointainers
+72,Albanaise,QI7769,Japon,2020-11-04 00:38:49,2020-11-17 14:51:11,
+11,Aberford,ST8633,Mexico,2021-04-19 19:44:31,,descaraga de pescados
+150,Premio dragon,EE2109,Nueva Zelanda,2016-02-10 09:20:01,,carga de cointainers
+131,Bramham,GS9404,Filipinas,2016-03-29 19:55:29,2016-04-08 13:08:10,
+138,guysborough,ED5736,Chile,2015-07-17 08:56:51,,se debe cargar petroleo
+189,Affleck,AU6167,Argentina,2018-03-03 02:52:08,2018-03-15 18:55:48,
+171,Albrighton,GT9752,España,2015-12-23 01:56:54,,se debe cargar petroleo
+193,Breconshire,GJ5946,Noruega,2016-08-20 18:23:25,,descarga de cointainers
+37,magnolia,ZP4420,Chile,2016-11-05 12:29:57,,descarga de cointainers
+163,Dromio,PK9613,Paraguay,2021-08-05 03:38:20,,descarga de cointainers
+201,Blankney,TJ7818,Portugal,2015-06-04 01:46:27,2015-06-17 20:53:05,
+124,Bogam,WX5990,Argentina,2015-01-19 15:00:21,,carga de cointainers
+9,Downley,RW4421,Suiza,2018-11-26 14:54:08,2018-11-30 13:58:58,
+141,Bravo,EV7485,Qatar,2021-02-09 08:03:13,,se debe descargar petroleo
+187,Aladdin,UH6836,Portugal,2021-01-15 09:06:19,2021-01-22 05:09:12,
+77,Adelaide,AL8743,Filipinas,2019-12-09 12:15:40,,se debe cargar petroleo
+38,Blandford,IV2746,Argentina,2021-02-19 17:51:04,2021-03-04 12:25:38,
+54,Bellota,YN4644,Islas Malvinas,2020-07-07 23:20:25,,descaraga de pescados
+93,Libelula,RQ2918,Dinamarca,2020-10-01 05:45:37,2020-10-02 04:07:07,
+137,Broadley,AV9914,Costa Rica,2011-04-17 10:58:50,2011-04-22 03:31:00,
+140,magnolia,ZP4420,Chile,2021-05-05 00:39:03,2021-05-05 19:48:37,
+91,Firme,EX4705,Japon,2021-01-23 00:00:51,2021-01-23 15:03:58,
+193,Abundancia,VX5561,Estados Unidos,2013-08-21 14:32:39,,descaraga de pescados
+112,drumheller,VI9753,Nicaragua,2021-01-19 22:37:50,2021-01-20 21:38:04,
+185,Brighton,NQ5495,Panama,2010-08-25 13:51:37,,se debe descargar petroleo
+93,Boyne,YB1434,Belgica,2021-06-09 09:03:33,2021-06-10 03:39:21,
+81,Afridi,PZ3477,Nicaragua,2014-11-18 00:27:58,,descarga de cointainers
+69,Flor,BB5259,Brasil,2020-10-09 02:10:14,2020-10-20 23:33:13,
+146,Driada,LI5894,Singapur,2020-12-28 03:03:16,2020-12-28 20:11:02,
+64,Adversario,MO4968,España,2010-12-08 00:11:01,,descaraga de pescados
+100,Almirante Devries,RJ2733,Estados Unidos,2013-08-09 04:34:15,2013-08-22 03:03:00,
+185,Achille,UW2735,Austria,2014-11-23 06:01:31,,descarga de cointainers
+153,Alban,BF7024,Finlandia,2019-06-19 03:31:57,,descaraga de pescados
+11,Aberford,ST8633,Mexico,2020-08-09 15:59:45,,descaraga de pescados
+21,britomart,JR2308,Tailandia,2021-03-11 01:03:58,,descaraga de pescados
+208,Eneas,MU6547,Sudafrica,2021-06-29 02:41:47,,descarga de cointainers
+22,Alcantara,GF5994,España,2011-01-23 13:47:57,,se debe descargar petroleo
+168,Abundante,ON7101,Argentina,2020-04-16 07:11:33,2020-04-29 00:03:01,
+176,Rubia,XG4556,Nicaragua,2011-08-26 18:14:52,2011-08-30 18:03:17,
+205,Brixham,WK4832,Brasil,2018-06-29 23:23:23,,se debe descargar petroleo
+99,Almirante Farragut,YG2900,Sudafrica,2020-09-14 05:30:30,2020-09-27 01:32:29,
+24,Abundante,ON7101,Argentina,2010-01-03 23:27:10,,carga de cointainers
+40,Castillo de Bombay,NK1201,Ecuador,2018-09-11 17:56:52,,carga de cointainers
+115,bowmanville,PJ3020,Japon,2015-09-06 21:08:15,,se debe descargar petroleo
+171,blackwall,AI2283,Reino Unido,2012-05-24 05:36:01,,carga de cointainers
+2,albacora,QL4591,Siria,2021-02-26 11:20:21,,descarga de cointainers
+21,Africa,RK2324,Republica Dominicana,2021-04-26 16:54:15,,se debe descargar petroleo
+5,Aconito,OT5458,Mexico,2019-02-23 05:21:21,,descarga de cointainers
+59,Brereton,WF3051,Singapur,2013-04-15 10:58:13,,carga de cointainers
+200,Valiente,YX2002,Islas Malvinas,2011-03-03 00:23:24,,descaraga de pescados
+19,briseis,WC2925,Costa Rica,2012-08-06 21:51:16,,descarga de cointainers
+80,Brillante,HF4402,Austria,2018-07-24 08:43:11,,carga de cointainers
+33,Abercrombie,LX6914,Qatar,2013-12-20 21:57:47,2014-01-02 21:51:38,
+160,Brakel,VG7905,Tailandia,2021-03-25 15:58:10,,descarga de cointainers
+180,acheron,BN4195,Costa Rica,2019-10-17 02:59:45,2019-10-24 17:56:56,
+185,bowmanville,PJ3020,Japon,2021-07-30 18:34:41,,se debe cargar petroleo
+172,Albatros,NX3376,Egipto,2011-01-12 02:41:31,,descarga de cointainers
+100,Blakeney,MZ9845,Italia,2021-04-27 22:15:53,2021-05-08 20:12:13,
+67,guysborough,ED5736,Chile,2020-12-22 09:41:26,2020-12-22 23:45:29,
+43,Bolebroke,HH5023,Republica Dominicana,2021-08-14 16:50:42,2021-08-29 14:27:51,
+32,Bootle,XL6992,Costa Rica,2021-07-24 04:03:04,2021-07-24 23:01:57,
+172,Brinkley,FN4513,Qatar,2014-09-23 08:59:28,,descarga de cointainers
+20,As,ID7819,Panama,2013-10-22 00:39:10,,descaraga de pescados
+155,Brinkley,FN4513,Qatar,2020-04-30 03:34:07,,descarga de cointainers
+116,Bonavoila,UE6214,Ecuador,2021-08-26 05:11:04,2021-08-27 02:36:15,
+165,Penelope,DS0478,Chile,2010-06-05 04:01:28,,descarga de cointainers
+65,Albrighton,GT9752,España,2021-01-17 18:19:22,,se debe descargar petroleo
+85,Albian,UH1378,Sudafrica,2017-03-12 03:05:10,,se debe descargar petroleo
+17,Agua Negra,KC2936,Noruega,2021-02-15 06:04:06,,se debe cargar petroleo
+67,Dromio,PK9613,Paraguay,2012-02-16 08:38:47,2012-02-25 03:02:41,
+180,Adur,OF5956,Egipto,2021-06-19 13:03:17,2021-06-29 11:17:07,
+186,Adan y Eva,XP9141,Jamaica,2020-11-24 06:26:55,,descaraga de pescados
+14,Afridi,PZ3477,Nicaragua,2012-10-18 12:00:00,,descarga de cointainers
+151,drummondville,FE1567,Panama,2016-03-26 03:50:07,,descarga de cointainers
+87,Braak,LD3618,Republica Dominicana,2011-02-10 06:02:24,2011-02-18 22:17:41,
+77,Brixham,WK4832,Brasil,2021-05-04 20:03:46,,se debe cargar petroleo
+59,Breda,HB4367,Egipto,2016-10-05 00:28:21,,se debe cargar petroleo
+104,Blenheim,LF8633,Suiza,2017-04-18 18:54:27,2017-04-28 18:36:19,
+122,Brema,TR8211,Australia,2021-01-24 00:13:22,2021-01-24 20:28:29,
+181,briseis,WC2925,Costa Rica,2014-05-01 14:54:41,2014-05-06 07:09:38,
+205,Bravucon,KQ3854,Nicaragua,2014-12-05 05:31:35,,descaraga de pescados
+134,albacora,QL4591,Siria,2015-07-19 03:35:15,2015-07-27 03:09:43,
+147,gitano,YT2845,Mexico,2010-05-19 14:17:18,,descaraga de pescados
+184,abondance,MO4425,Filipinas,2013-09-07 07:45:44,2013-09-19 01:56:27,
+194,Premio aventura,VP2429,Australia,2021-05-09 14:12:03,,descaraga de pescados
+87,Terrible,SQ8557,Vietnam,2015-07-20 13:37:42,2015-08-01 12:47:43,
+158,Bellota,YN4644,Islas Malvinas,2013-12-17 12:58:35,2013-12-29 03:36:19,
+165,Breconshire,GJ5946,Noruega,2020-12-09 08:00:33,,descarga de cointainers
+149,Bolebroke,HH5023,Republica Dominicana,2020-06-26 02:36:49,,descarga de cointainers
+124,Acorazado,GC3280,Islas Malvinas,2010-10-23 14:44:06,,descaraga de pescados
+158,Generosidad,QC1164,España,2013-09-11 18:48:09,2013-09-17 17:07:38,
+4,Castillo de Bombay,NK1201,Ecuador,2011-04-22 05:55:21,2011-04-27 05:26:19,
+127,Boreas,VH2584,Ecuador,2017-11-26 06:22:33,,carga de cointainers
+27,Boyne,YB1434,Belgica,2016-04-01 21:51:51,,descaraga de pescados
+6,Generosidad,QC1164,España,2017-02-06 03:00:12,2017-02-17 21:10:18,
+153,Blakeney,MZ9845,Italia,2021-04-09 13:05:24,,descaraga de pescados
+187,Bootle,XL6992,Costa Rica,2020-04-22 09:49:54,2020-05-06 04:08:48,
+126,Actividad,OC4762,Finlandia,2017-09-27 04:33:41,2017-10-04 18:37:17,
+127,Bolebroke,HH5023,Republica Dominicana,2020-11-26 04:07:42,,descarga de cointainers
+85,Bramham,GS9404,Filipinas,2021-02-17 20:47:53,,carga de cointainers
+96,Drogheda,PB7290,Reino Unido,2012-09-08 21:18:11,,descaraga de pescados
+163,Brissenden,UZ5981,Cuba,2013-11-10 08:06:04,,se debe descargar petroleo
+101,Terrible,SQ8557,Vietnam,2020-10-05 12:48:12,2020-10-06 03:54:46,
+39,blackwall,AI2283,Reino Unido,2015-08-17 20:29:39,,carga de cointainers
+134,Abeille,VC7492,Singapur,2021-05-02 20:43:18,2021-05-03 13:37:06,
+144,Dovey,XB6912,Argentina,2012-11-05 09:18:59,,carga de cointainers
+168,drumheller,VI9753,Nicaragua,2014-05-11 17:37:37,2014-05-22 14:14:04,
+141,Bendicion,PR9667,Noruega,2017-10-13 20:27:08,,carga de cointainers
+198,Agua Negra,KC2936,Noruega,2011-03-24 13:15:12,,se debe descargar petroleo
+50,Ventaja,GO7311,Australia,2010-05-11 13:05:31,2010-05-20 12:04:09,
+76,bodenham,II3534,Noruega,2016-08-24 20:16:05,2016-09-07 14:11:17,
+52,Calypso,VI4743,Canada,2020-11-06 08:17:24,,descaraga de pescados
+3,abondance,MO4425,Filipinas,2011-11-12 19:45:13,,descaraga de pescados
+17,Alarma,SL2391,Sudafrica,2020-02-15 02:39:38,,se debe descargar petroleo
+68,Castillo de Bowes,YE6286,Argentina,2011-11-11 12:25:48,,descaraga de pescados
+153,Blandford,IV2746,Argentina,2015-11-23 14:07:02,,se debe cargar petroleo
+4,Agua Negra,KC2936,Noruega,2020-12-12 06:05:23,2020-12-12 21:50:43,
+27,Adonis,HE7029,India,2012-05-16 20:10:25,,se debe descargar petroleo
+185,Bowen,AI9121,Jamaica,2021-02-22 12:24:38,,se debe cargar petroleo
+9,Brevdrageren,HI3831,Belgica,2020-10-05 00:09:48,2020-10-05 19:47:14,
+46,druida,OO2266,Qatar,2014-12-29 01:14:48,,descaraga de pescados
+52,Avanzar,SG9128,Japon,2019-09-18 15:32:57,,descarga de cointainers
+112,Acertif,QA2495,Nueva Zelanda,2011-05-01 11:59:02,2011-05-12 07:01:16,
+134,Aconito,OT5458,Mexico,2021-02-17 20:04:29,2021-02-18 15:17:13,
+110,Gulnare,OI4579,Egipto,2015-04-18 04:40:22,2015-05-01 04:36:05,
+11,Acacia,XK7318,Argentina,2016-02-24 06:52:22,,descaraga de pescados
+194,Premio Dreadnought,NT2280,Colombia,2019-09-05 14:26:48,,se debe descargar petroleo
+193,Campanilla,WC8293,Australia,2021-04-10 01:14:24,,descaraga de pescados
+110,Albian,UH1378,Sudafrica,2020-04-07 23:21:02,2020-04-15 20:02:38,
+164,Blickling,MZ2239,Egipto,2020-01-03 05:20:39,2020-01-12 21:10:53,
+59,Bramham,GS9404,Filipinas,2017-04-11 01:34:11,,descarga de cointainers
+202,Negrita,HE5247,Polonia,2014-06-04 23:01:19,2014-06-13 22:03:30,
+161,Drochterland,NN2774,Tailandia,2016-02-17 05:29:33,,descarga de cointainers
+192,Campanilla,WC8293,Australia,2021-07-07 04:10:59,,descaraga de pescados
+175,Valiente,YX2002,Islas Malvinas,2010-04-09 03:10:59,,descaraga de pescados
+36,Campanilla,WC8293,Australia,2020-05-11 05:56:41,2020-05-19 03:29:05,
+37,Descarado,RO9221,Cuba,2017-02-07 07:58:45,,se debe cargar petroleo
+189,Blyth,OM4230,Paraguay,2017-08-16 00:48:00,2017-08-20 21:04:54,
+137,Zarza,MY3367,Portugal,2013-09-28 05:28:44,2013-10-08 01:55:15,
+183,Blenheim,LF8633,Suiza,2021-02-05 06:36:21,2021-02-18 20:59:01,
+207,Agrega un,RH8308,Dinamarca,2011-01-20 11:09:52,,descarga de cointainers
+100,Agamenon,CI3218,Siria,2014-10-18 16:28:55,2014-10-25 14:37:30,
+214,Brantingham,MJ4934,Ecuador,2010-11-01 03:48:44,2010-11-16 01:29:47,
+137,Rubia,XG4556,Nicaragua,2020-09-28 00:55:22,2020-09-28 16:11:26,
+7,Braak,LD3618,Republica Dominicana,2020-12-26 01:41:59,2020-12-27 00:14:32,
+44,Calypso,VI4743,Canada,2021-08-30 23:05:53,2021-08-31 15:47:15,
+32,acasta,HV2199,Mexico,2020-05-06 04:15:58,2020-05-18 20:14:28,
+40,Agua Negra,KC2936,Noruega,2014-11-06 13:03:28,,se debe descargar petroleo
+161,Eolo,IW2489,Australia,2019-06-02 04:32:37,,descaraga de pescados
+41,britanico,YW8268,Cuba,2021-08-25 20:21:18,2021-08-26 12:47:30,
+11,Premio Dover,KH8053,Belgica,2018-05-09 13:00:52,,descaraga de pescados
+104,Brampton,HE8199,Jamaica,2019-06-25 07:43:17,2019-07-08 01:38:10,
+55,Penelope,DS0478,Chile,2010-10-30 22:46:07,,carga de cointainers
+197,Branlebas,DQ3759,India,2021-08-26 07:10:36,2021-09-04 02:03:42,
+120,Bridlington,LN8777,Tailandia,2021-07-19 09:29:37,,descaraga de pescados
+128,gitano,YT2845,Mexico,2015-06-27 16:59:57,2015-07-06 08:21:17,
+27,Aetna,IG9597,Indonesia,2020-09-11 01:25:05,,descaraga de pescados
+50,Boreas,VH2584,Ecuador,2020-11-20 22:55:06,2020-11-21 21:16:40,
+162,Albemarle,XG7925,Filipinas,2016-05-31 20:40:27,,carga de cointainers
+102,Blanche,RV9799,Dinamarca,2016-03-11 12:46:57,,se debe descargar petroleo
+109,downham,CE1914,Corea,2013-08-03 15:08:45,2013-08-07 13:42:00,
+171,Boyne,YB1434,Belgica,2021-04-30 19:32:56,,descaraga de pescados
+200,Albanaise,QI7769,Japon,2013-08-08 13:53:47,,se debe cargar petroleo
+28,Alcantara,GF5994,España,2013-06-01 04:25:58,,se debe descargar petroleo
+29,Blakeney,MZ9845,Italia,2011-08-28 09:06:19,2011-09-06 03:18:10,
+107,Drogheda,PB7290,Reino Unido,2021-08-21 12:59:05,,descaraga de pescados
+177,Trenza,SU8617,Belgica,2020-01-27 12:15:10,,se debe cargar petroleo
+10,Premio dragon,EE2109,Nueva Zelanda,2017-03-13 03:39:35,2017-03-18 20:50:04,
+77,Aberford,ST8633,Mexico,2011-03-16 06:25:08,,descaraga de pescados
+124,Blyth,OM4230,Paraguay,2018-02-13 21:11:18,,se debe cargar petroleo
+39,Boston,IH6707,Nicaragua,2016-03-05 14:04:19,,descaraga de pescados
+171,Brantingham,MJ4934,Ecuador,2018-07-12 02:12:58,,descaraga de pescados
+153,Adelaide,AL8743,Filipinas,2021-08-14 23:55:17,,se debe descargar petroleo
+122,Libelula,RQ2918,Dinamarca,2011-03-11 16:36:01,2011-03-21 07:21:29,
+198,Afridi,PZ3477,Nicaragua,2017-12-16 11:18:16,,descarga de cointainers
+138,Libelula,RQ2918,Dinamarca,2012-05-28 04:12:50,,descaraga de pescados
+107,Albrighton,GT9752,España,2018-10-26 15:00:03,,se debe descargar petroleo
+95,Agudo,XN4914,Peru,2018-12-17 08:24:34,,carga de cointainers
+24,Alcantara,GF5994,España,2021-08-17 21:40:15,,se debe descargar petroleo
+141,Conductor,PZ1913,Nueva Zelanda,2012-03-02 00:30:27,,carga de cointainers
+127,Botha,DA9671,Suiza,2017-07-27 00:42:30,,descaraga de pescados
+80,Boulogne,PV7666,Austria,2010-08-24 15:22:43,,se debe cargar petroleo
+85,brigandine,BN3951,Italia,2020-11-06 19:02:59,,descarga de cointainers
+142,Albuera,OB9598,Vietnam,2020-04-09 10:55:59,,se debe descargar petroleo
+142,Dubford,DY6365,Irlanda,2017-02-15 15:26:49,,carga de cointainers
+102,Gulnare,OI4579,Egipto,2015-12-11 19:23:14,,descarga de cointainers
+55,Castillo bridgnorth,TS8958,Indonesia,2014-02-23 00:48:07,,descaraga de pescados
+66,Terrible,SQ8557,Vietnam,2021-01-28 17:32:29,2021-02-06 13:23:17,
+109,Agudo,XN4914,Peru,2015-11-27 17:22:07,2015-12-03 09:04:13,
+143,Brissenden,UZ5981,Cuba,2013-04-09 10:54:58,2013-04-23 10:10:16,
+152,magnolia,ZP4420,Chile,2019-09-14 22:39:09,,carga de cointainers
+120,Blankney,TJ7818,Portugal,2021-07-04 22:26:56,,se debe cargar petroleo
+144,briseis,WC2925,Costa Rica,2021-08-10 02:53:54,,carga de cointainers
+211,Abbotsham,ZX2922,India,2017-02-21 11:24:57,,descaraga de pescados
+68,Premio dragon,EE2109,Nueva Zelanda,2014-02-10 16:41:30,,carga de cointainers
+60,Bolebroke,HH5023,Republica Dominicana,2021-02-25 23:56:28,2021-02-26 14:39:24,
+7,Albert,MW6341,Tailandia,2021-07-17 08:15:30,2021-07-17 22:25:31,
+21,magnolia,ZP4420,Chile,2020-09-20 07:06:13,,descarga de cointainers
+175,Albrighton,GT9752,España,2019-04-03 05:34:34,,se debe descargar petroleo
+7,Premio consejos,YB8271,Siria,2020-11-19 07:20:07,2020-11-20 06:03:40,
+151,Drogheda,PB7290,Reino Unido,2011-11-26 15:57:21,,descaraga de pescados
+132,broadwater,GS9663,Polonia,2015-01-28 18:16:28,,descarga de cointainers
+24,Actividad,OC4762,Finlandia,2021-09-04 00:12:14,,descaraga de pescados
+119,Bombay,MN4984,Japon,2021-08-28 16:30:02,,se debe descargar petroleo
+112,Agrega un,RH8308,Dinamarca,2020-09-17 01:03:48,2020-09-28 17:36:59,
+119,Abrams Oferta,QD4440,Estados Unidos,2010-03-17 21:01:08,,se debe descargar petroleo
+41,Bourdelais,EI5834,Polonia,2020-11-14 09:17:09,2020-11-20 08:05:35,
+80,Penelope,DS0478,Chile,2011-11-01 03:22:38,,descarga de cointainers
+28,Braave,IF9396,Portugal,2010-10-15 06:52:13,,se debe cargar petroleo
+193,Blake,WD8846,Noruega,2010-12-17 02:19:14,,descarga de cointainers
+7,Brereton,WF3051,Singapur,2017-05-05 00:49:56,2017-05-16 15:40:46,
+78,Blaxton,OF1501,Noruega,2020-12-31 07:41:33,,descaraga de pescados
+55,Britania,DT6703,Finlandia,2012-01-07 22:59:27,,se debe descargar petroleo
+22,brantford,RP8314,Ecuador,2010-10-10 09:18:56,,descarga de cointainers
+191,Boreham,CV4539,Islas Malvinas,2013-03-31 22:13:10,2013-04-15 15:18:40,
+172,Brereton,WF3051,Singapur,2020-12-09 13:19:00,,carga de cointainers
+8,brigandine,BN3951,Italia,2011-06-17 14:16:00,2011-07-02 14:06:50,
+39,Frontera,XH5466,Australia,2013-04-11 07:27:40,,descarga de cointainers
+165,Dromio,PK9613,Paraguay,2021-04-01 23:36:05,,descarga de cointainers
+114,Blenheim,LF8633,Suiza,2015-08-13 13:42:43,,se debe descargar petroleo
+213,Dromio,PK9613,Paraguay,2020-12-10 02:59:10,2020-12-10 18:23:32,
+37,druida,OO2266,Qatar,2011-01-26 20:26:34,,descaraga de pescados
+84,albacora,QL4591,Siria,2021-07-08 05:07:37,,carga de cointainers
+91,Abrahan,EG8528,Brasil,2021-02-01 08:37:44,2021-02-05 01:33:28,
+215,Libelula,RQ2918,Dinamarca,2016-09-14 19:32:09,,descaraga de pescados
+186,Esclava,VI7863,Chile,2021-07-07 12:44:23,,descarga de cointainers
+39,Brezo,UO8744,Paraguay,2011-07-31 23:05:51,,descaraga de pescados
+61,Almirante Devries,RJ2733,Estados Unidos,2013-05-02 02:30:12,,se debe descargar petroleo
+61,Brantingham,MJ4934,Ecuador,2018-01-31 08:22:56,,descaraga de pescados
+86,Esclava,VI7863,Chile,2018-12-29 16:46:27,,carga de cointainers
+180,Bouclier,UJ2611,Islas Malvinas,2021-07-08 22:43:04,2021-07-13 17:48:33,
+212,Affleck,AU6167,Argentina,2021-06-09 18:51:26,,carga de cointainers
+24,brantford,RP8314,Ecuador,2019-07-17 10:34:52,,carga de cointainers
+143,Abigail,AU5998,Irlanda,2013-06-10 02:55:51,2013-06-24 23:23:40,
+189,Buenaventura,PJ8392,Republica Dominicana,2017-01-17 23:35:43,2017-01-21 19:35:34,
+202,Madera negra,MN1612,Italia,2020-06-26 17:04:15,2020-07-11 13:40:16,
+89,britomart,JR2308,Tailandia,2020-11-11 15:25:27,,descaraga de pescados
+42,Abrams Oferta,QD4440,Estados Unidos,2014-10-27 04:15:48,,se debe descargar petroleo
+106,Aconito,OT5458,Mexico,2010-11-16 20:32:30,,descarga de cointainers
+108,Brecon,LR2069,Panama,2010-12-31 13:06:02,2011-01-07 06:01:22,
+94,Boreham,CV4539,Islas Malvinas,2012-11-27 02:59:57,2012-12-03 17:42:50,
+66,Borraja,RC8468,Estados Unidos,2021-01-15 16:42:00,2021-01-16 15:31:14,
+177,Abisinia,VT6220,Mexico,2011-03-03 21:17:50,,descarga de cointainers
+144,Abbotsham,ZX2922,India,2011-03-04 02:02:06,,descaraga de pescados
+31,Bourdelais,EI5834,Polonia,2020-06-30 15:19:36,2020-07-06 11:41:06,
+26,Brayford,HI7513,Suiza,2020-11-26 01:50:22,,se debe descargar petroleo
+141,Afrikander,GM1638,Islas Malvinas,2010-08-24 05:00:58,,descaraga de pescados
+84,Boston,IH6707,Nicaragua,2021-06-13 22:33:59,,descaraga de pescados
+69,Adur,OF5956,Egipto,2018-07-29 23:05:46,2018-08-06 18:21:44,
+123,Aberford,ST8633,Mexico,2020-07-27 04:01:36,,descaraga de pescados
+135,acasta,HV2199,Mexico,2016-04-27 13:11:29,2016-05-03 09:37:31,
+191,magnolia,ZP4420,Chile,2018-09-23 11:20:23,2018-10-03 10:03:39,
+54,Energico,CC4639,Polonia,2020-10-22 15:52:56,,descaraga de pescados
+20,Blenheim,LF8633,Suiza,2020-12-03 11:38:45,,se debe descargar petroleo
+193,gitano,YT2845,Mexico,2011-03-22 06:00:07,,descaraga de pescados
+113,Eolo,IW2489,Australia,2015-05-06 03:50:50,2015-05-15 22:32:20,
+62,Avanzar,SG9128,Japon,2017-05-19 22:40:51,,carga de cointainers
+201,Consejo,BI5654,Peru,2015-09-08 19:02:14,2015-09-17 17:56:33,
+62,Alaunia II,PP3724,Portugal,2017-03-20 18:08:51,,se debe cargar petroleo
+152,Castillo bramber,SM2508,Colombia,2014-08-07 16:57:10,,carga de cointainers
+30,Libelula,RQ2918,Dinamarca,2021-04-02 16:19:54,2021-04-03 08:30:06,
+80,Premio Dover,KH8053,Belgica,2021-02-05 13:21:00,,descaraga de pescados
+168,Bourdelais,EI5834,Polonia,2020-12-19 01:51:44,2020-12-19 18:13:05,
+169,Habil,HB3228,Singapur,2011-09-05 08:06:36,2011-09-13 02:00:36,
+190,Bendicion,PR9667,Noruega,2021-02-25 14:34:53,,descarga de cointainers
+109,Acorazado,GC3280,Islas Malvinas,2010-01-30 00:47:35,2010-02-07 15:15:26,
+177,Energico,CC4639,Polonia,2013-07-28 16:07:22,,descaraga de pescados
+150,Afridi,PZ3477,Nicaragua,2011-02-25 02:10:31,,carga de cointainers
+153,Blean,ZV9679,Australia,2020-07-31 19:48:10,,se debe descargar petroleo
+173,Sable,DC7834,Qatar,2017-04-22 15:49:59,,descaraga de pescados
+77,Bellota,YN4644,Islas Malvinas,2019-01-01 02:45:04,,descaraga de pescados
+14,Chaqueta de sport,AM9504,Paraguay,2015-05-19 04:47:56,,descarga de cointainers
+199,Adonis,HE7029,India,2019-08-16 20:05:07,,se debe cargar petroleo
+0,Gulnare,OI4579,Egipto,2020-12-10 21:07:04,,carga de cointainers
+141,downham,CE1914,Corea,2012-05-30 19:26:13,,se debe descargar petroleo
+165,Dromio,PK9613,Paraguay,2011-08-05 13:39:31,,carga de cointainers
+199,Bravucon,KQ3854,Nicaragua,2013-06-19 05:05:59,,descaraga de pescados
+34,Boulogne,PV7666,Austria,2013-01-11 15:15:49,2013-01-18 08:24:13,
+77,Brakel,VG7905,Tailandia,2021-07-18 21:21:36,,descarga de cointainers
+132,acasta,HV2199,Mexico,2016-12-29 17:00:50,,carga de cointainers
+17,Bridgewater,DV6261,Belgica,2010-12-15 19:17:21,,descaraga de pescados
+32,Africaine,LN6036,Republica Dominicana,2021-05-17 14:57:22,2021-05-18 14:50:26,
+124,Premio brillante,IT1233,Filipinas,2019-12-21 22:50:57,,descaraga de pescados
+163,Boulogne,PV7666,Austria,2016-08-08 21:12:33,,se debe cargar petroleo
+160,Abelardo,LS5992,Costa Rica,2014-06-08 12:23:31,,descaraga de pescados
+173,Bumerang,PA1651,Islas Malvinas,2014-04-05 11:29:55,,descaraga de pescados
+134,briseis,WC2925,Costa Rica,2021-05-18 14:56:49,2021-05-19 13:51:15,
+16,Habil,HB3228,Singapur,2020-12-07 04:22:22,,se debe cargar petroleo
+89,Asesor,VT2032,Austria,2012-06-08 21:05:11,,descaraga de pescados
+211,Blaxton,OF1501,Noruega,2021-04-06 00:21:38,,descaraga de pescados
+182,Bridgewater,DV6261,Belgica,2021-06-02 13:07:11,2021-06-03 08:39:04,
+170,Aberford,ST8633,Mexico,2021-05-26 21:00:42,,descaraga de pescados
+121,Bravo,EV7485,Qatar,2018-10-11 04:54:28,,se debe descargar petroleo
+40,brearley,FO3430,India,2019-12-27 20:24:43,,descaraga de pescados
+181,Alarma,SL2391,Sudafrica,2021-06-30 03:51:12,2021-06-30 18:09:34,
+62,Bleasdale,SV9482,Panama,2021-04-11 16:01:26,,descaraga de pescados
+113,Calypso,VI4743,Canada,2020-09-11 18:03:29,2020-09-12 12:04:52,
+87,Agrega un,RH8308,Dinamarca,2014-05-03 12:10:48,2014-05-12 04:34:28,
+21,Breconshire,GJ5946,Noruega,2017-03-08 17:47:08,,carga de cointainers
+67,Borraja,RC8468,Estados Unidos,2012-05-24 13:19:47,2012-06-04 08:21:47,
+90,Bossington,EB3227,Peru,2014-07-01 08:53:57,,se debe cargar petroleo
+23,Penelope,DS0478,Chile,2019-04-29 01:13:30,,carga de cointainers
+38,Premio consejos,YB8271,Siria,2017-02-12 01:20:01,2017-02-26 18:42:12,
+84,Botha,DA9671,Suiza,2013-09-15 21:11:56,,descaraga de pescados
+123,Boyne,YB1434,Belgica,2017-03-02 11:32:05,,descaraga de pescados
+132,Aventuras,GS7205,España,2018-10-08 01:43:35,,descaraga de pescados
+27,blencathra,UL8619,India,2013-03-09 14:02:05,,descaraga de pescados
+154,Generosidad,QC1164,España,2020-11-21 03:49:49,,se debe descargar petroleo
+164,Bolton Castle,FI2331,Austria,2018-07-27 06:46:22,2018-08-06 23:44:11,
+135,brearley,FO3430,India,2018-12-25 22:12:53,2019-01-07 14:50:54,
+59,Descarado,RO9221,Cuba,2012-12-20 23:03:27,,se debe descargar petroleo
+73,Bridport,HK6767,Sudafrica,2017-08-05 05:38:57,,se debe cargar petroleo
+37,Habil,HB3228,Singapur,2020-10-17 21:47:40,,se debe descargar petroleo
+182,Pato,ZC6249,Brasil,2021-05-05 05:11:36,2021-05-06 03:51:06,
+176,Sumador,YP3858,Nicaragua,2015-06-17 22:38:12,2015-06-25 15:51:56,
+156,Sable,DC7834,Qatar,2013-10-17 17:36:32,,descaraga de pescados
+130,Firme,EX4705,Japon,2010-12-17 10:28:04,,se debe cargar petroleo
+124,Asesor,VT2032,Austria,2021-04-30 02:43:38,,descaraga de pescados
+212,Adan y Eva,XP9141,Jamaica,2016-08-17 06:32:12,,descaraga de pescados
+172,Bristol,DK4889,Portugal,2020-12-29 02:49:07,,descarga de cointainers
+18,Boyne,YB1434,Belgica,2021-06-22 18:14:59,2021-06-23 12:34:44,
+80,Agua Negra,KC2936,Noruega,2010-06-15 06:57:36,,se debe descargar petroleo
+181,Calypso,VI4743,Canada,2014-06-14 17:59:20,2014-06-20 09:29:04,
+131,Abundancia,VX5561,Estados Unidos,2015-10-04 05:37:15,2015-10-14 04:12:50,
+14,gitano,YT2845,Mexico,2021-08-24 16:17:28,,descaraga de pescados
+151,Braak,LD3618,Republica Dominicana,2012-01-30 17:41:19,,se debe descargar petroleo
+15,Almirante Farragut,YG2900,Sudafrica,2020-10-25 01:00:16,2020-10-25 20:15:26,
+193,acheron,BN4195,Costa Rica,2014-12-27 01:19:40,,descarga de cointainers
+10,brantford,RP8314,Ecuador,2012-02-01 16:00:51,2012-02-08 13:07:44,
+143,Buenaventura,PJ8392,Republica Dominicana,2016-03-27 11:33:13,2016-04-03 07:04:38,
+119,Bridgewater,DV6261,Belgica,2018-07-01 13:26:15,,descaraga de pescados
+187,druida,OO2266,Qatar,2020-12-07 09:39:30,2020-12-20 06:31:59,
+86,brigandine,BN3951,Italia,2014-03-13 17:17:39,,carga de cointainers
+165,Brezo,UO8744,Paraguay,2013-10-22 04:52:19,,descaraga de pescados
+17,Refriega,JD8184,Mexico,2017-08-25 02:24:02,,se debe cargar petroleo
+82,Alamein,QJ6353,Peru,2011-05-11 11:56:12,2011-05-25 05:46:30,
+20,Brinkley,FN4513,Qatar,2014-10-06 07:07:24,,carga de cointainers
+185,Alaunia II,PP3724,Portugal,2018-11-01 23:11:19,,se debe cargar petroleo
+35,Abelardo,LS5992,Costa Rica,2019-07-13 17:35:12,2019-07-24 11:49:01,
+95,Botha,DA9671,Suiza,2020-12-02 17:01:05,,descaraga de pescados
+37,Drochterland,NN2774,Tailandia,2020-11-09 07:12:28,,descarga de cointainers
+93,Acertif,QA2495,Nueva Zelanda,2021-07-28 06:47:43,2021-07-28 21:35:19,
+179,Albany,FM3163,Finlandia,2021-01-08 17:15:02,2021-01-09 07:25:42,
+143,Brayford,HI7513,Suiza,2020-11-18 13:16:56,2020-11-22 08:42:18,
+14,Albian,UH1378,Sudafrica,2019-08-02 19:14:01,,se debe cargar petroleo
+193,Premio Dover,KH8053,Belgica,2019-01-17 08:45:59,,descaraga de pescados
+151,Adan y Eva,XP9141,Jamaica,2012-11-04 17:31:26,,descaraga de pescados
+61,Downley,RW4421,Suiza,2014-07-19 18:11:01,,se debe descargar petroleo
+179,Albatros,NX3376,Egipto,2012-07-19 01:41:47,2012-08-02 16:09:23,
+31,Bradfield,AY3986,Islas Malvinas,2020-07-15 03:32:51,2020-07-24 18:25:05,
+80,Bogam,WX5990,Argentina,2017-08-13 05:59:37,,carga de cointainers
+162,Sumador,YP3858,Nicaragua,2021-04-07 19:57:46,,descaraga de pescados
+134,Abrahan,EG8528,Brasil,2020-11-28 20:50:03,2020-11-29 16:13:29,
+191,Bradfield,AY3986,Islas Malvinas,2010-11-10 06:32:49,2010-11-15 23:44:09,
+179,Dubford,DY6365,Irlanda,2021-04-03 01:49:47,2021-04-04 01:02:09,
+24,Madera negra,MN1612,Italia,2015-01-15 19:06:23,,descaraga de pescados
+78,Brighton,NQ5495,Panama,2021-03-16 14:54:25,,se debe descargar petroleo
+163,Drogheda,PB7290,Reino Unido,2020-08-06 07:17:14,,descaraga de pescados
+124,bowmanville,PJ3020,Japon,2021-07-09 01:26:55,,se debe cargar petroleo
+0,Bravucon,KQ3854,Nicaragua,2020-09-17 20:34:36,,descaraga de pescados
+149,Sabueso,HW2014,Colombia,2017-06-05 17:58:59,,descaraga de pescados
+25,Brigham,RK9162,Argentina,2017-12-07 06:39:23,2017-12-19 23:14:29,
+9,Bellota,YN4644,Islas Malvinas,2021-02-24 21:31:19,2021-03-10 15:57:29,
+125,Chaqueta de sport,AM9504,Paraguay,2014-03-22 19:05:39,,descarga de cointainers
+113,Borraja,RC8468,Estados Unidos,2017-05-30 03:38:16,2017-06-12 18:38:29,
+172,alberni,KY2131,Paraguay,2013-07-24 00:33:44,,carga de cointainers
+35,Afrikander,GM1638,Islas Malvinas,2021-08-16 23:53:29,2021-08-28 17:29:51,
+111,Bolebroke,HH5023,Republica Dominicana,2019-04-11 20:43:12,2019-04-20 17:52:59,
+111,acasta,HV2199,Mexico,2010-09-14 12:54:33,2010-09-29 06:00:04,
+128,Brighton,NQ5495,Panama,2019-03-07 01:50:08,2019-03-18 18:16:06,
+63,Branlebas,DQ3759,India,2015-06-16 13:31:45,2015-06-28 11:07:19,
+94,Alberta,FU8868,Panama,2011-08-25 20:48:53,2011-09-04 13:12:21,
+56,Ventaja,GO7311,Australia,2021-02-02 03:02:08,2021-02-02 18:47:16,
+73,Consejo,BI5654,Peru,2016-12-23 15:19:51,,descarga de cointainers
+153,bowmanville,PJ3020,Japon,2021-07-22 17:00:32,,se debe cargar petroleo
+185,Brixham,WK4832,Brasil,2013-05-26 12:29:53,,se debe descargar petroleo
+103,Abundante,ON7101,Argentina,2021-07-08 01:12:54,,carga de cointainers
+98,Blaxton,OF1501,Noruega,2013-09-05 14:23:50,,descaraga de pescados
+149,Alaunia II,PP3724,Portugal,2013-02-04 01:35:43,,se debe descargar petroleo
+74,abergavenny,LA5643,Siria,2016-02-11 09:24:29,2016-02-24 05:19:45,
+75,Bonetta,IJ4552,Mexico,2018-11-27 18:54:41,2018-12-09 10:29:06,
+77,Boadicea,AL1557,Dinamarca,2015-04-14 00:14:04,,descarga de cointainers
+61,Alamein,QJ6353,Peru,2013-09-15 03:57:09,,se debe descargar petroleo
