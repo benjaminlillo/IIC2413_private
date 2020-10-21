@@ -11,7 +11,8 @@
   $query = "SELECT s.nombre, s.patente FROM (SELECT * FROM naviera NATURAL JOIN pertenece) AS r,(SELECT * FROM buque NATURAL JOIN buquepesquero) AS s WHERE r.bid = s.bid AND r.nid = $id;";
   $result = $db -> prepare($query);
   $result -> execute();
-  $dataCollected = $result -> fetchAll(); #Obtiene todos los resultados de la consulta en forma de un arreglo
+	$dataCollected = $result -> fetchAll(); #Obtiene todos los resultados de la consulta en forma de un arreglo
+	echo $dataCollected;
   ?>
 	<h4> Buques pesqueros </h4>
   <table>
