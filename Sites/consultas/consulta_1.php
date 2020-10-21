@@ -1,5 +1,5 @@
 <?php include('../templates/header.html');   ?>
-
+<!-- aqui va a estar la consulta 1 de navegacion -->
 <body>
 
   <?php
