@@ -41,7 +41,7 @@
     </tr>
   <?php
   foreach ($dataCollected as $p) {
-    echo "<tr> <td> $p[0] </td> <td href='consultas/consulta_1.php'> $p[1] </td>";
+    echo "<tr> <td> $p[0] </td> <td href='/consultas/consulta_1.php'> $p[1] </td>";
   }
   ?>
   </table>
