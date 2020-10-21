@@ -5,13 +5,15 @@
   <?php
   require("../config/conexion.php"); #Llama a conexión, crea el objeto PDO y obtiene la variable $db
 
-  $id = $_GET['id'];
-  $query = "SELECT * FROM buque,(SELECT * FROM naviera NATURAL JOIN pertenece) AS ola WHERE ola.bid = buque.bid AND ola.nid=$id;";
+	$id = $_GET['id'];
+	
+	// buques pesqueros
+  $query = "SELECT s.nombre, s.patente FROM (SELECT * FROM naviera NATURAL JOIN pertenece) AS r,(SELECT * FROM buque NATURAL JOIN buquepesquero) AS s WHERE r.bid = s.bid AND r.nid = 1;";
   $result = $db -> prepare($query);
   $result -> execute();
   $dataCollected = $result -> fetchAll(); #Obtiene todos los resultados de la consulta en forma de un arreglo
   ?>
-
+	<h4> Buques pesqueros </h4>
   <table>
     <tr>
     	<th>NOMBRE</th>
@@ -19,7 +21,7 @@
     </tr>
   <?php
   foreach ($dataCollected as $p) {
-    echo "<tr> <td>$p[4]</td> <td>$p[1]</td>";
+    echo "<tr> <td>$p[0]</td> <td>$p[1]</td>";
   }
   ?>
   </table>
