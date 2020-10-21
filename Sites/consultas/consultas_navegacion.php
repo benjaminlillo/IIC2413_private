@@ -13,8 +13,8 @@
   $result -> execute();
 	$dataCollected = $result -> fetchAll(); #Obtiene todos los resultados de la consulta en forma de un arreglo
 	?>
+	<h4> Buques pesqueros </h4>
 	<?php if (!empty($dataCollected)) : ?>
-		<h4> Buques pesqueros </h4>
 		<table>
 			<tr>
 				<th>NOMBRE</th>
@@ -26,6 +26,8 @@
 		}
 		?>
 		</table>
+	<?php else : ?>
+		<h5> Esta naviera no posee buques pesqueros </h5>
 	<?php endif; ?>
 
 
@@ -39,17 +41,21 @@
   $dataCollected = $result -> fetchAll(); #Obtiene todos los resultados de la consulta en forma de un arreglo
   ?>
 	<h4> Buques petroleros </h4>
-  <table>
-    <tr>
-    	<th>NOMBRE</th>
-      <th>PATENTE</th>
-    </tr>
-  <?php
-  foreach ($dataCollected as $p) {
-    echo "<tr> <td>$p[0]</td> <td>$p[1]</td>";
-  }
-  ?>
-	</table>
+	<?php if (!empty($dataCollected)) : ?>
+		<table>
+			<tr>
+				<th>NOMBRE</th>
+				<th>PATENTE</th>
+			</tr>
+		<?php
+		foreach ($dataCollected as $p) {
+			echo "<tr> <td>$p[0]</td> <td>$p[1]</td>";
+		}
+		?>
+		</table>
+	<?php else : ?>
+		<h5> Esta naviera no posee buques petroleros </h5>
+	<?php endif; ?>
 
 	<?php
 	// buques de carga
@@ -59,17 +65,21 @@
   $dataCollected = $result -> fetchAll(); #Obtiene todos los resultados de la consulta en forma de un arreglo
   ?>
 	<h4> Buques de carga </h4>
-  <table>
-    <tr>
-    	<th>NOMBRE</th>
-      <th>PATENTE</th>
-    </tr>
-  <?php
-  foreach ($dataCollected as $p) {
-    echo "<tr> <td>$p[0]</td> <td>$p[1]</td>";
-  }
-  ?>
-	</table>
+	<?php if (!empty($dataCollected)) : ?>
+		<table>
+			<tr>
+				<th>NOMBRE</th>
+				<th>PATENTE</th>
+			</tr>
+		<?php
+		foreach ($dataCollected as $p) {
+			echo "<tr> <td>$p[0]</td> <td>$p[1]</td>";
+		}
+		?>
+		</table>
+	<?php else : ?>
+		<h5> Esta naviera no posee buques de carga </h5>
+	<?php endif; ?>
 	
 	
 
