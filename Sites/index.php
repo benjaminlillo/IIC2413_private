@@ -16,7 +16,7 @@
   <h3 align="center"> Navieras </h3>
 
   <?php
-  require("/config/conexion.php"); #Llama a conexión, crea el objeto PDO y obtiene la variable $db
+  require("config/conexion.php"); #Llama a conexión, crea el objeto PDO y obtiene la variable $db
   $query = "SELECT nid, nombre FROM Naviera;";
   $result = $db -> prepare($query);
   $result -> execute();
