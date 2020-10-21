@@ -6,7 +6,7 @@
   require("../config/conexion.php"); #Llama a conexión, crea el objeto PDO y obtiene la variable $db
 
   $id = $_GET['id'];
-  $query = "SELECT nid, nombre FROM Naviera WHERE nid = $id;";
+  $query = "SELECT * FROM buque,(SELECT * FROM naviera NATURAL JOIN pertenece) AS ola WHERE ola.bid = buque.bid AND ola.nid=$id;";
   $result = $db -> prepare($query);
   $result -> execute();
   $dataCollected = $result -> fetchAll(); #Obtiene todos los resultados de la consulta en forma de un arreglo
@@ -14,7 +14,7 @@
 
   <table>
     <tr>
-    <th>ID naviera</th>
+    	<th>ID naviera</th>
       <th>NOMBRE</th>
     </tr>
   <?php
