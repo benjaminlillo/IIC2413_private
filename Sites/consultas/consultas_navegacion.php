@@ -14,12 +14,12 @@
 
   <table>
     <tr>
-    	<th>ID naviera</th>
-      <th>NOMBRE</th>
+    	<th>NOMBRE</th>
+      <th>PATENTE</th>
     </tr>
   <?php
   foreach ($dataCollected as $p) {
-    echo "<tr> <td>$p[0]</td> <td>$p[1]</td>";
+    echo "<tr> <td>$p[4]</td> <td>$p[1]</td>";
   }
   ?>
   </table>
