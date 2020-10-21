@@ -12,20 +12,24 @@
   $result = $db -> prepare($query);
   $result -> execute();
 	$dataCollected = $result -> fetchAll(); #Obtiene todos los resultados de la consulta en forma de un arreglo
-	print_r(!empty($dataCollected));
 	?>
-	<h4> Buques pesqueros </h4>
-  <table>
-    <tr>
-    	<th>NOMBRE</th>
-      <th>PATENTE</th>
-    </tr>
-  <?php
-  foreach ($dataCollected as $p) {
-    echo "<tr> <td>$p[0]</td> <td>$p[1]</td>";
-  }
-  ?>
-	</table>
+	<?php if (!empty($dataCollected)) : ?>
+		<h4> Buques pesqueros </h4>
+		<table>
+			<tr>
+				<th>NOMBRE</th>
+				<th>PATENTE</th>
+			</tr>
+		<?php
+		foreach ($dataCollected as $p) {
+			echo "<tr> <td>$p[0]</td> <td>$p[1]</td>";
+		}
+		?>
+		</table>
+	<?php endif; ?>
+
+
+	
 
 	<?php
 	// buques petroleros

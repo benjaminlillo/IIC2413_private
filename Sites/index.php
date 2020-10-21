@@ -23,6 +23,9 @@
   $dataCollected = $result -> fetchAll(); #Obtiene todos los resultados de la consulta en forma de un arreglo
   ?>
 
+
+
+
   <!-- <table>
     <tr>
     <th>ID</th>
