@@ -12,7 +12,7 @@
   $result = $db -> prepare($query);
   $result -> execute();
 	$dataCollected = $result -> fetchAll(); #Obtiene todos los resultados de la consulta en forma de un arreglo
-	echo $dataCollected;
+	print $dataCollected;
   ?>
 	<h4> Buques pesqueros </h4>
   <table>
