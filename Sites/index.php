@@ -41,7 +41,7 @@
     </tr>
   <?php
   foreach ($dataCollected as $p) {
-    echo "<tr> <td> <%= $p[0]%> </td> <td> <%= link_to $p[1], 'consultas/consulta_1.php'%> </td>";
+    echo "<tr> <td> $p[0] </td> <td> <link_to $p[1], 'consultas/consulta_1.php'> </td>";
   }
   ?>
   </table>
