@@ -46,8 +46,8 @@
   $result = $db -> prepare($query);
   $result -> execute();
   $dataCollected = $result -> fetchAll();
-  header("Location: home.php"); /* Redirect browser */
-  exit();
+  echo "<script> location.href='./home.php'; </script>";
+  exit;
 }  
 ?>
 
