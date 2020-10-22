@@ -42,7 +42,7 @@
           </div>
           
           <div class="control">
-              <button class="button is-link">Log In</button>
+              <button type="submit" name="boton_clicked" class="button is-link">Log In</button>
           </div>
         </div>
 
@@ -53,6 +53,14 @@
   </div>
 </section>
 </body>
+
+<?php
+  
+  function boton_clicked() { 
+    echo "This is Button1 that is selected"; 
+  } 
+?> 
+
 
 <?php echo $_GET['pasaporte']; ?>
 <?php echo $_GET['contrasena']; ?>
