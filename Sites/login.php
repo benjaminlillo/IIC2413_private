@@ -53,6 +53,7 @@
           </div>
           
           <div class="control">
+              <button type='button' onclick="document.write('<?php echo "Click On YesBtn"; ?>');>Run my PHP code</button>
               <button type="submit" action="login.php" method="post" name="boton" class="button is-link">Log In</button>
           </div>
         </div>
