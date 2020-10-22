@@ -48,7 +48,7 @@
   $dataCollected = $result -> fetchAll();
 
   foreach ($dataCollected as $p) {
-   if(p["pasaporte"] == $pasaporte && p["contrasena"] == $password])
+   if(p["pasaporte"] == $pasaporte && p["contrasena"] == $password)
    {
     echo "<script> location.href='./home.php?id=" .$p["id"]. "&tipo=" .$p["tipo"]. "'; </script>";
     exit;
