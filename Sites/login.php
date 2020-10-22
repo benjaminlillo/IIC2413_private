@@ -16,19 +16,39 @@
 </head>
 
 <body>
+<section class="hero is-success is-fullheight">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns">
+    
+        <div class="column"></div>
 
-<div  class="field" class="is-centered" class="is-half">
-  <label class="label" >Pasaporte</label>
-  <div class="control">
-    <input class="input" type="text" placeholder="n° pasaporte">
+        <div class="column">
+          <h2 class="title">Log In</h2>
+
+          <div  class="field" >
+            <label class="label" >Pasaporte</label>
+            <div class="control">
+              <input class="input" type="text" placeholder="n° pasaporte">
+          </div>
+        </div>
+          
+          <div class="field">
+            <label class="label">Constraseña</label>
+            <div class="control">
+              <input class="input" type="text" placeholder="contraseña">
+            </div>
+          </div>
+          
+          <div class="control">
+              <button class="button is-link">Log In</button>
+          </div>
+        </div>
+
+        <div class="column"></div>
+      
+      </div>
+    </div>
   </div>
-</div>
-
-<div class="field" class="is-centered" class="is-half">
-  <label class="label">Constraseña</label>
-  <div class="control">
-    <input class="input" type="text" placeholder="contraseña">
-  </div>
-</div>
-
+</section>
 </body>
