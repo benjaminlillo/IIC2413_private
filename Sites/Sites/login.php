@@ -21,12 +21,11 @@
 
           <div>
             <form action="login.php" method="post">
-              <label class="label">Pasaporte</label>
+              <label class="label">Pasaporte:</label>
               <input class="input" type="text" name="Pasaporte">
-              <label class="label">Contraseña</label>
+              <label class="label">Contraseña:</label>
               <input class="input" type="text" name="Password">
-              <br></br>
-              <input class="button is-link" type="submit" name="boton_submit">
+              <input type="submit" name="boton_submit">
             </form>
           </div>
         </div>
@@ -41,7 +40,7 @@
 <?php if(isset($_POST['boton_submit']))
 {
   $pasaporte = $_POST["Pasaporte"]; 
-  $clave = $_POST["Password"];
+  $password = $_POST["Password"];
   require("config/conexion.php");
   $query = "SELECT * FROM Usuario;";
   $result = $db -> prepare($query);
@@ -50,13 +49,16 @@
 
   $valido = FALSE;
   foreach ($dataCollected as $p) {
-    if($p["pasaporte"] == $pasaporte && $p["contrasena"] == $clave)
+  echo $p;
+    if($p["pasaporte"] == $pasaporte && $p["contrasena"] == $password)
     {
       echo "<script> location.href='./home.php?id=" .$p["id"]. "&tipo=" .$p["tipo"]. "'; </script>";
       $valido = TRUE;
       exit;
     }
   }
+  echo $valido;
+  echo "hola";
 }
 ?>
 
