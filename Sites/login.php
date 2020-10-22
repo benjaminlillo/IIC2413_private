@@ -12,22 +12,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Login</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.css">
-    <style type="text/css">
-        body{ font: 14px sans-serif; text-align: center; }
-    </style>
     
 </head>
 
 <body>
 
-<div align="center" class="field">
-  <label class="label">Pasaporte</label>
+<div  class="field" class="is-centered" class="is-half">
+  <label class="label" >Pasaporte</label>
   <div class="control">
     <input class="input" type="text" placeholder="n° pasaporte">
   </div>
 </div>
 
-<div align="center" class="field">
+<div class="field" class="is-centered" class="is-half">
   <label class="label">Constraseña</label>
   <div class="control">
     <input class="input" type="text" placeholder="contraseña">
