@@ -39,16 +39,22 @@
 
 <?php if(isset($_POST['boton_submit']))
 {
-  echo $_POST["Pasaporte"]; 
-  echo $_POST["Password"];
+  $pasaporte = $_POST["Pasaporte"]; 
+  $password = $_POST["Password"];
   require("config/conexion.php");
   $query = "SELECT * FROM Usuario;";
   $result = $db -> prepare($query);
   $result -> execute();
   $dataCollected = $result -> fetchAll();
-  echo "<script> location.href='./home.php'; </script>";
-  exit;
-}  
+
+  foreach ($dataCollected as $p) {
+   if(p["pasaporte"] == $pasaporte && p["contrasena"] == $password])
+   {
+    echo "<script> location.href='./home.php?id=" .$p["id"]. "&tipo=" .$p["tipo"]. "'; </script>";
+    exit;
+   }
+  }
+}
 ?>
 
 
