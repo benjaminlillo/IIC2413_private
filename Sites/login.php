@@ -49,13 +49,13 @@
 
   $valido = FALSE
   foreach ($dataCollected as $p) {
-   if($p["pasaporte"] == $pasaporte && $p["contrasena"] == $password)
-   {
-    echo "<script> location.href='./home.php?id=" .$p["id"]. "&tipo=" .$p["tipo"]. "'; </script>";
-    $valido = TRUE
-    exit;
-   }
-   echo $p
+  echo $p  
+    if($p["pasaporte"] == $pasaporte && $p["contrasena"] == $password)
+    {
+      echo "<script> location.href='./home.php?id=" .$p["id"]. "&tipo=" .$p["tipo"]. "'; </script>";
+      $valido = TRUE
+      exit;
+    }
   }
   echo $valido
   echo "hola"
