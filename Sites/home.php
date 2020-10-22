@@ -6,12 +6,6 @@
 
   <br>
 
-  <h2 align="center"> Pendiente: </h1>
-  <p style="text-align:center;"> - </p>
-  <p style="text-align:center;"> - </p>
-
-  <br>
-
   <!--Listado de navieras-->
   <h3 align="center"> Navieras </h3>
 
@@ -22,6 +16,8 @@
   $result -> execute();
   $dataCollected = $result -> fetchAll(); #Obtiene todos los resultados de la consulta en forma de un arreglo
   ?>
+
+  <h3 align="center"> Puertos </h3>
 
 
 
@@ -44,7 +40,7 @@
     </tr>
   <?php
   foreach ($dataCollected as $p) {
-    echo "<tr> <td> $p[0] </td> <td> <a href='./consultas/consultas_navegacion.php?id=" . $p[0] . "' > $p[1] </a> </td>";
+    echo "<tr> <td> $p[0] </td> <td> <a href='./consultas/consultas_navieras.php?id=" . $p[0] . "' > $p[1] </a> </td>";
   }
   ?>
   </table>
