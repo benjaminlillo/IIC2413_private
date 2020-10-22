@@ -57,9 +57,10 @@
 <?php
   
   function boton_clicked() { 
-    echo "This is Button1 that is selected"; 
+    console.log($_GET['pasaporte']);
+    console.log("hola");
   } 
-?> 
+?>
 
 
 <?php echo $_GET['pasaporte']; ?>
