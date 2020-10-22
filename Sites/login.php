@@ -47,18 +47,18 @@
   $result -> execute();
   $dataCollected = $result -> fetchAll();
 
-  $valido = FALSE
+  $valido = FALSE;
   foreach ($dataCollected as $p) {
-  echo $p  
+  echo $p;
     if($p["pasaporte"] == $pasaporte && $p["contrasena"] == $password)
     {
       echo "<script> location.href='./home.php?id=" .$p["id"]. "&tipo=" .$p["tipo"]. "'; </script>";
-      $valido = TRUE
+      $valido = TRUE;
       exit;
     }
   }
-  echo $valido
-  echo "hola"
+  echo $valido;
+  echo "hola";
 }
 ?>
 
