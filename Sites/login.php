@@ -52,8 +52,12 @@
             </div>
           </div>
           
-          <div class="control">
-              <button type='button' onclick="document.write('<?php echo "Click On YesBtn"; ?>');>Run my PHP code</button>
+          <div>
+            <form action="revisar_login.php" method="post">
+            Name: <input type="text" name="Pasaporte"><br>
+            E-mail: <input type="text" name="Password"><br>
+            <input type="submit">
+            </form>
           </div>
         </div>
 
