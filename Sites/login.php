@@ -56,7 +56,7 @@
             <form action="login.php" method="post">
             Name: <input class="input" type="text" name="Pasaporte"><br>
             E-mail: <input class="input" type="text" name="Password"><br>
-            <input type="submit">
+            <input type="submit" name="boton_submit">
             </form>
           </div>
         </div>
@@ -68,8 +68,11 @@
   </div>
 </section>
 
-Welcome <?php echo $_POST["Pasaporte"]; ?><br>
-Tu clave es: <?php echo $_POST["Password"]; ?>
+<?php if(isset($_POST['boton_submit']))
+{
+   echo $_POST["Password"];
+}  ?>
+
 
 </body>
 
