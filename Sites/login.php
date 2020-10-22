@@ -7,15 +7,16 @@
   ?>
 
 <?php
-  
-  function boton_clicked() { 
-    console.log($_GET['pasaporte']);
-    console.log("hola");
-    echo $_GET['pasaporte']; 
-    echo $_GET['contrasena'];
-    print_r("holah");
-  } 
+    if($_SERVER['REQUEST_METHOD'] == "POST" and isset($_POST['boton']))
+    {
+        func();
+    }
+    function func()
+    {
+      echo("<script>console.log('HOLAH');</script>");
+    }
 ?>
+
 
 <!DOCTYPE html>
 <head>
@@ -52,7 +53,7 @@
           </div>
           
           <div class="control">
-              <button type="submit" onclick="boton_clicked()" class="button is-link">Log In</button>
+              <button type="submit" action="login.php" method="post" name="boton" class="button is-link">Log In</button>
           </div>
         </div>
 
