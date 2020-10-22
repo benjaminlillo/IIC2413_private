@@ -1,22 +1,3 @@
-<?php
-  require("config/conexion.php"); #Llama a conexión, crea el objeto PDO y obtiene la variable $db
-  $query = "SELECT * FROM Usuario;";
-  $result = $db -> prepare($query);
-  $result -> execute();
-  $dataCollected = $result -> fetchAll(); #Obtiene todos los resultados de la consulta en forma de un arreglo
-  ?>
-
-<?php
-    if($_SERVER['REQUEST_METHOD'] == "POST" and isset($_POST['boton']))
-    {
-        func();
-    }
-    function func()
-    {
-      echo("<script>console.log('HOLAH');</script>");
-    }
-?>
-
 
 <!DOCTYPE html>
 <head>
@@ -38,20 +19,6 @@
         <div class="column">
           <h2 class="title">Log In</h2>
 
-          <div  class="field" >
-            <label class="label" >Pasaporte</label>
-            <div class="control">
-              <input id="pasaporte" class="input" type="text" placeholder="n° pasaporte">
-          </div>
-        </div>
-          
-          <div class="field">
-            <label class="label">Constraseña</label>
-            <div class="control">
-              <input id="contrasena" class="input" type="text" placeholder="contraseña">
-            </div>
-          </div>
-          
           <div>
             <form action="login.php" method="post">
               <label class="label">Pasaporte:</label>
@@ -74,7 +41,15 @@
 {
   echo $_POST["Pasaporte"]; 
   echo $_POST["Password"];
-}  ?>
+  require("config/conexion.php");
+  $query = "SELECT * FROM Usuario;";
+  $result = $db -> prepare($query);
+  $result -> execute();
+  $dataCollected = $result -> fetchAll();
+  header("Location: home.php"); /* Redirect browser */
+  exit();
+}  
+?>
 
 
 </body>
