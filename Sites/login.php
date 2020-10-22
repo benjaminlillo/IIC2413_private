@@ -6,6 +6,7 @@
   $dataCollected = $result -> fetchAll(); #Obtiene todos los resultados de la consulta en forma de un arreglo
   ?>
 
+
 <!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
@@ -29,14 +30,14 @@
           <div  class="field" >
             <label class="label" >Pasaporte</label>
             <div class="control">
-              <input class="input" type="text" placeholder="n° pasaporte">
+              <input id="pasaporte" class="input" type="text" placeholder="n° pasaporte">
           </div>
         </div>
           
           <div class="field">
             <label class="label">Constraseña</label>
             <div class="control">
-              <input class="input" type="text" placeholder="contraseña">
+              <input id="contrasena" class="input" type="text" placeholder="contraseña">
             </div>
           </div>
           
@@ -52,3 +53,6 @@
   </div>
 </section>
 </body>
+
+<?php echo $_GET['pasaporte']; ?>
+<?php echo $_GET['contrasena']; ?>
