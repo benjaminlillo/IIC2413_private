@@ -6,6 +6,16 @@
   $dataCollected = $result -> fetchAll(); #Obtiene todos los resultados de la consulta en forma de un arreglo
   ?>
 
+<?php
+  
+  function boton_clicked() { 
+    console.log($_GET['pasaporte']);
+    console.log("hola");
+    echo $_GET['pasaporte']; 
+    echo $_GET['contrasena'];
+    print_r("holah");
+  } 
+?>
 
 <!DOCTYPE html>
 <head>
@@ -42,7 +52,7 @@
           </div>
           
           <div class="control">
-              <button type="submit" name="boton_clicked" class="button is-link">Log In</button>
+              <button type="submit" onclick="boton_clicked()" class="button is-link">Log In</button>
           </div>
         </div>
 
@@ -54,14 +64,7 @@
 </section>
 </body>
 
-<?php
-  
-  function boton_clicked() { 
-    console.log($_GET['pasaporte']);
-    console.log("hola");
-  } 
-?>
 
 
-<?php echo $_GET['pasaporte']; ?>
-<?php echo $_GET['contrasena']; ?>
+
+
