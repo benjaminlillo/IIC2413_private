@@ -54,9 +54,11 @@
           
           <div>
             <form action="login.php" method="post">
-            Name: <input class="input" type="text" name="Pasaporte"><br>
-            E-mail: <input class="input" type="text" name="Password"><br>
-            <input type="submit" name="boton_submit">
+              <label class="label">Pasaporte:</label>
+              <input class="input" type="text" name="Pasaporte">
+              <label class="label">Contraseña:</label>
+              <input class="input" type="text" name="Password">
+              <input type="submit" name="boton_submit">
             </form>
           </div>
         </div>
@@ -70,7 +72,8 @@
 
 <?php if(isset($_POST['boton_submit']))
 {
-   echo $_POST["Password"];
+  echo $_POST["Pasaporte"]; 
+  echo $_POST["Password"];
 }  ?>
 
 
