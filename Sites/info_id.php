@@ -21,7 +21,7 @@
     }
     
     if(!$correct) {
-      echo "ERROR - NO ENCONTRADO"
+      echo "ERROR - NO ENCONTRADO";
     }
     return array("pasaporte" => $pasaporte, "tipo" => $tipo, "nombre" => $nombre);
   }
