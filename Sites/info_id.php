@@ -9,9 +9,9 @@
     $correct = FALSE;
 
     foreach ($dataCollected as $p) {
-    if($id == p["id"]){
-      $pasaporte = p["pasaporte"];
-      $tipo = p["tipo"];
+    if($id == $p["id"]){
+      $pasaporte = $p["pasaporte"];
+      $tipo = $p["tipo"];
       $nombre = $p["nombre"];
       //$edad = $p["edad"];
       //$sexo = $p["genero"];
