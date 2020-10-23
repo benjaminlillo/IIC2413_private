@@ -1,7 +1,7 @@
 <?php include('templates/header.html');   ?>
 <?php
   $id = $_GET["id"];
-  include('info_id.php?');
+  include('info_id.php');
   $vars = get_params($id);
   print_r($vars)
 ?>
