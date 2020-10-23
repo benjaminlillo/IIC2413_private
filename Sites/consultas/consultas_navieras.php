@@ -3,7 +3,7 @@
 <body>
 
   <?php
-  require("../config/conexion.php"); #Llama a conexión, crea el objeto PDO y obtiene la variable $db
+  require("../config/conexion_2.php"); #Llama a conexión, crea el objeto PDO y obtiene la variable $db
 
 	$id = $_GET['id'];
 	

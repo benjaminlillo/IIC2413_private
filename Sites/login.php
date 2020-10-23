@@ -42,8 +42,8 @@
 {
   $pasaporte = $_POST["Pasaporte"]; 
   $clave = $_POST["Password"];
-  require("config/conexion.php");
-  $query = "SELECT * FROM Usuario;";
+  require("config/conexion_2.php");
+  $query = "SELECT * FROM Usuarios;";
   $result = $db -> prepare($query);
   $result -> execute();
   $dataCollected = $result -> fetchAll();
