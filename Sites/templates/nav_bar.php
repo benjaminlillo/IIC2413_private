@@ -38,7 +38,7 @@
           </form>
         </div>
         <div class="navbar-item">
-          <form action="./login.php" method="post"> 
+          <form action="http://codd.ing.puc.cl/~grupo2/login.php" method="post"> 
             <input class="button is-light" type="submit" name="boton_cerrar_sesion" value="Cerrar Sesión">
           </form>
         </div>

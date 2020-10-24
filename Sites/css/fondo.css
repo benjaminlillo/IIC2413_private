@@ -2,15 +2,15 @@ html{
   background-color: hsl(0, 0%, 96%);
 }
 /* custom scrollbar */
-::-webkit-scrollbar {
+.scroller::-webkit-scrollbar {
   width: 20px;
 }
   
-::-webkit-scrollbar-track {
+.scroller::-webkit-scrollbar-track {
   background-color: transparent;
 }
   
-::-webkit-scrollbar-thumb {
+.scroller::-webkit-scrollbar-thumb {
   background-color: hsl(171, 100%, 41%);
   border-radius: 20px;
   border: 6px solid transparent;

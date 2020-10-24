@@ -69,7 +69,16 @@
 ?>
 
 
-<?php include("templates/footer.html") ?>
+<footer class="footer">
+	<div class="content has-text-centered">
+		<strong>Cochrane Ports</strong> - Grupos 2 y 129
+		<br>
+		<a href="https://github.com/benjaminlillo/IIC2413_private">Repositorio de GitHub</a>
+	</div>
+</footer>
+</body>
+
+</html>
 
 
 
