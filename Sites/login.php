@@ -26,7 +26,7 @@
               <label class="label">Contraseña</label>
               <input class="input" type="text" name="Password">
               <br></br>
-              <input class="button is-link" type="submit" name="boton_submit">
+              <input class="button is-link" type="submit" name="boton_submit" value="Iniciar Sesión">
             </form>
           </div>
         </div>
@@ -52,7 +52,7 @@
   foreach ($dataCollected as $p) {
     if($p["pasaporte"] == $pasaporte && $p["contrasena"] == $clave)
     {
-      echo "<script> location.href='./home.php?id=" .$p["id"]. "&tipo=" .$p["tipo"]. "'; </script>";
+      echo "<script> location.href='./home.php?id=" .$p["id"]. "'; </script>";
       $valido = TRUE;
       exit;
     }

@@ -1,48 +1,100 @@
-<?php include('templates/header.html');   ?>
+<?php
+  include('templates/header.html');
+  include('templates/nav_bar.php');
+?>
 <?php
   $id = $_GET["id"];
   include('info_id.php');
   $vars = get_params($id);
-  print_r($vars)
 ?>
 
-
-<body>
-  <h1 align="center"> Entrega 3 - grupos 2 y nose </h1>
-  <p style="text-align:center;"> Inicio </p>
+<head>
+  <link rel="stylesheet" href="css/fondo.css">
+</head>
 
   <br>
-
-  <!--Listado de navieras-->
-  <h3 align="center"> Navieras </h3>
-
-
-  <h3 align="center"> Puertos </h3>
-
-  
-
-
-  
-  <table>
-    <tr>
-      <th>ID</th>
-      <th>NOMBRE</th>
-    </tr>
+  <!-- <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+    <div align="center">
+      <?php 
+      // echo "<div> <h2 class='title' align='center'>" . $vars['nombre'] . "</h2> </div>";
+      ?>
+      <br>
+      <div>
+      <form action="<?php $_PHP_SELF ?>" method="post">
+        <input class="button is-link" type="submit" name="boton_perfil" value="Mi Perfil">
+      </form>
+      </div>
+    </div>
+  </nav> -->
   <?php
-  require("config/conexion_2.php"); #Llama a conexión, crea el objeto PDO y obtiene la variable $db
-  $query = "SELECT nid, nombre FROM Naviera;";
-  $result = $db -> prepare($query);
-  $result -> execute();
-  $dataCollected = $result -> fetchAll();
-  foreach ($dataCollected as $p) {
-    echo "<tr> <td> $p[0] </td> <td> <a href='./consultas/consultas_navieras.php?id=" . $p[0] . "' > $p[1] </a> </td>";
+  if(isset($_POST['boton_miperfil']))
+  {
+    echo "<script> location.href='./profile.php?id=" .$id. "'; </script>";
+    exit;
   }
   ?>
-  </table>
+  <br>
+  <br>
+  <br>
+    <div>
+      <h1 class = 'title' align="center"> Inicio </h2>
+      <br>
+    </div>
+    <div class='columns is-mobile is-multiline is-centered'>
+      <div class="column is-1"></div>
+
+      <div class='column box'>
+        <h3 align='center' class='title'>Navieras</h3>
+        <div>
+          <table class="table">
+            <tr>
+              <th>ID</th>
+              <th>NOMBRE</th>
+            </tr>
+          <?php
+          require("config/conexion_2.php"); #Llama a conexión, crea el objeto PDO y obtiene la variable $db
+          $query = "SELECT nid, nombre FROM Naviera;";
+          $result = $db -> prepare($query);
+          $result -> execute();
+          $dataCollected = $result -> fetchAll();
+          foreach ($dataCollected as $p) {
+            echo "<tr> <td> $p[0] </td> <td> <a href='./consultas/consultas_navieras.php?id=" . $p[0] . "' > $p[1] </a> </td>";
+          }
+          ?>
+          </table>
+        </div>
+      </div>
+
+      <div class="column is-1"></div>
+
+      <div class='column box'>
+        <h3 align='center' class='title'>Puertos</h3>
+        <div>
+          <table class="table">
+            <tr>
+              <th>ID</th>
+              <th>NOMBRE</th>
+            </tr>
+          <?php
+          require("config/conexion_2.php"); #Llama a conexión, crea el objeto PDO y obtiene la variable $db
+          $query = "SELECT nid, nombre FROM Naviera;";
+          $result = $db -> prepare($query);
+          $result -> execute();
+          $dataCollected = $result -> fetchAll();
+          foreach ($dataCollected as $p) {
+            echo "<tr> <td> $p[0] </td> <td> <a href='./consultas/consultas_navieras.php?id=" . $p[0] . "' > $p[1] </a> </td>";
+          }
+          ?>
+          </table>
+        </div>
+      </div>
+
+      <div class="column is-1"></div>
+    </div>
+  </div>
 
   <br>
   <br>
   <br>
   <br>
 </body>
-</html>
