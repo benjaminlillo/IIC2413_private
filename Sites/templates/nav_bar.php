@@ -29,9 +29,6 @@
 
 
       <div class="navbar-end">
-        <div id='titulo' class='navbar-item'>
-          <a>titulo</a> 
-        </div>
         <div class="navbar-item">
           <div class="buttons">
             <a class="button is-primary">

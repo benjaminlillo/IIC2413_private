@@ -46,7 +46,7 @@
       <div class='column box'>
         <h3 align='center' class='title'>Navieras</h3>
         <div>
-          <table class="table">
+          <table align='center' class="table">
             <tr>
               <th>ID</th>
               <th>NOMBRE</th>
@@ -58,7 +58,7 @@
           $result -> execute();
           $dataCollected = $result -> fetchAll();
           foreach ($dataCollected as $p) {
-            echo "<tr> <td> $p[0] </td> <td> <a href='./consultas/consultas_navieras.php?id=" . $p[0] . "' > $p[1] </a> </td>";
+            echo "<tr> <td> $p[0] </td> <td> <a href='./consultas/consultas_navieras.php?id=" . $id . "&id_naviera=" . $p[0] . "'> $p[1] </a> </td>";
           }
           ?>
           </table>
@@ -70,19 +70,19 @@
       <div class='column box'>
         <h3 align='center' class='title'>Puertos</h3>
         <div>
-          <table class="table">
+          <table align='center' class="table">
             <tr>
               <th>ID</th>
               <th>NOMBRE</th>
             </tr>
           <?php
-          require("config/conexion_2.php"); #Llama a conexión, crea el objeto PDO y obtiene la variable $db
-          $query = "SELECT nid, nombre FROM Naviera;";
+          require("config/conexion_129.php"); #Llama a conexión, crea el objeto PDO y obtiene la variable $db
+          $query = "SELECT ppid, nombre_puerto FROM Puerto;";
           $result = $db -> prepare($query);
           $result -> execute();
           $dataCollected = $result -> fetchAll();
           foreach ($dataCollected as $p) {
-            echo "<tr> <td> $p[0] </td> <td> <a href='./consultas/consultas_navieras.php?id=" . $p[0] . "' > $p[1] </a> </td>";
+            echo "<tr> <td> $p[0] </td> <td> <a href='./consultas/consultas_puertos.php?id=" . $id . "&id_puerto=" . $p[0] . "'> $p[1] </a> </td>";
           }
           ?>
           </table>
