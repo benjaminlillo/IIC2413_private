@@ -23,7 +23,7 @@
   require("../config/conexion_2.php"); #Llama a conexión, crea el objeto PDO y obtiene la variable $db
 	
 	// buques pesqueros
-  $query = "SELECT s.nombre, s.patente FROM (SELECT * FROM naviera NATURAL JOIN pertenece) AS r,(SELECT * FROM buque NATURAL JOIN buquepesquero) AS s WHERE r.bid = s.bid AND r.nid = $id;";
+  $query = "SELECT s.nombre, s.patente FROM (SELECT * FROM naviera NATURAL JOIN pertenece) AS r,(SELECT * FROM buque NATURAL JOIN buquepesquero) AS s WHERE r.bid = s.bid AND r.nid = $id_naviera;";
   $result = $db -> prepare($query);
   $result -> execute();
 	$dataCollected = $result -> fetchAll(); #Obtiene todos los resultados de la consulta en forma de un arreglo
@@ -31,12 +31,14 @@
 	<br>
   <br>
 	<br>
+	<br>
+	<br>
 	<div class='columns'>
 	<div class="column is-1"></div>
 		<div class='column box'>
-			<h4> Buques pesqueros </h4>
+			<h4 align='center' class='subtitle is-4'> Buques pesqueros </h4>
 			<?php if (!empty($dataCollected)) : ?>
-				<table class='table'>
+				<table align='center' class='table'>
 					<tr>
 						<th>NOMBRE</th>
 						<th>PATENTE</th>
@@ -48,22 +50,22 @@
 				?>
 				</table>
 			<?php else : ?>
-				<h5> Esta naviera no posee buques pesqueros </h5>
+				<h5 align='center'> Esta naviera no posee buques pesqueros </h5>
 			<?php endif; ?>
 		</div>
 
 		<?php
 		// buques petroleros
-		$query = "SELECT s.nombre, s.patente FROM (SELECT * FROM naviera NATURAL JOIN pertenece) AS r,(SELECT * FROM buque NATURAL JOIN buquepetrolero) AS s WHERE r.bid = s.bid AND r.nid = $id;";
+		$query = "SELECT s.nombre, s.patente FROM (SELECT * FROM naviera NATURAL JOIN pertenece) AS r,(SELECT * FROM buque NATURAL JOIN buquepetrolero) AS s WHERE r.bid = s.bid AND r.nid = $id_naviera;";
 		$result = $db -> prepare($query);
 		$result -> execute();
 		$dataCollected = $result -> fetchAll(); #Obtiene todos los resultados de la consulta en forma de un arreglo
 		?>
 		<div class="column is-1"></div>
 		<div class='column box'>
-			<h4> Buques petroleros </h4>
+			<h4 align='center' class='subtitle is-4'> Buques petroleros </h4>
 			<?php if (!empty($dataCollected)) : ?>
-				<table class='table'>
+				<table align='center' class='table'>
 					<tr>
 						<th>NOMBRE</th>
 						<th>PATENTE</th>
@@ -75,22 +77,22 @@
 				?>
 				</table>
 			<?php else : ?>
-				<h5> Esta naviera no posee buques petroleros </h5>
+				<h5 align='center'> Esta naviera no posee buques petroleros </h5>
 			<?php endif; ?>
 		</div>
 
 		<?php
 		// buques de carga
-		$query = "SELECT s.nombre, s.patente FROM (SELECT * FROM naviera NATURAL JOIN pertenece) AS r,(SELECT * FROM buque NATURAL JOIN buquecarga) AS s WHERE r.bid = s.bid AND r.nid = $id;";
+		$query = "SELECT s.nombre, s.patente FROM (SELECT * FROM naviera NATURAL JOIN pertenece) AS r,(SELECT * FROM buque NATURAL JOIN buquecarga) AS s WHERE r.bid = s.bid AND r.nid = $id_naviera;";
 		$result = $db -> prepare($query);
 		$result -> execute();
 		$dataCollected = $result -> fetchAll(); #Obtiene todos los resultados de la consulta en forma de un arreglo
 		?>
 		<div class="column is-1"></div>
 		<div class='column box'>
-			<h4> Buques de carga </h4>
+			<h4 align='center' class='subtitle is-4'> Buques de carga </h4>
 			<?php if (!empty($dataCollected)) : ?>
-				<table class='table'>
+				<table align='center' class='table'>
 					<tr>
 						<th>NOMBRE</th>
 						<th>PATENTE</th>
@@ -102,9 +104,9 @@
 				?>
 				</table>
 			<?php else : ?>
-				<h5> Esta naviera no posee buques de carga </h5>
+				<h5 align='center'> Esta naviera no posee buques de carga </h5>
 			<?php endif; ?>
 		</div>
 		<div class="column is-1"></div>
 	</div>
-</body>
+º<?php include("../templates/footer.html") ?>

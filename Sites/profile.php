@@ -32,4 +32,4 @@
   ?>
   </table>
 <!-- para no todos -->
-</body>
+  <?php include("templates/footer.html") ?>

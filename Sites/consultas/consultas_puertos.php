@@ -77,4 +77,4 @@
 		<div class='column'></div>
 	</div>
 	
-</body>
+	<?php include("../templates/footer.html") ?>
