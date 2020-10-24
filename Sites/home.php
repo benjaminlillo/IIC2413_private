@@ -8,10 +8,6 @@
   $vars = get_params($id);
 ?>
 
-<head>
-  <link rel="stylesheet" href="css/fondo.css">
-</head>
-
   <br>
   <!-- <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
     <div align="center">

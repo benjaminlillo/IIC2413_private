@@ -7,6 +7,12 @@
   include('info_id.php');
   $vars = get_params($id);
 ?>
+<?php if(isset($_POST['boton_inicio']))
+{
+  echo "<script> location.href='./home.php?id=" .$id. "'; </script>";
+  exit;
+}
+?>
 <body>
 <!-- para todos -->
 <table class="table">
@@ -26,16 +32,4 @@
   ?>
   </table>
 <!-- para no todos -->
-
-<div align="center">
-    <form action="<?php $_PHP_SELF ?>" method="post">
-      <input class="button is-link" type="submit" name="boton_home" value="Home">
-    </form>
-  </div>
-  <?php if(isset($_POST['boton_inicio']))
-  {
-    echo "<script> location.href='./home.php?id=" .$id. "'; </script>";
-    exit;
-  }
-  ?>
 </body>

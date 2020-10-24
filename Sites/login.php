@@ -5,7 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Login</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.css">
-    
+    <style>
+      body {
+        overflow-y:hidden;
+      }
+      ::-webkit-scrollbar {
+        width: 0px;  /* Remove scrollbar space */
+        background: transparent;  /* Optional: just make scrollbar invisible */
+      }
+    </style>
 </head>
 
 <body>
@@ -24,7 +32,7 @@
               <label class="label">Pasaporte</label>
               <input class="input" type="text" name="Pasaporte">
               <label class="label">Contraseña</label>
-              <input class="input" type="text" name="Password">
+              <input class="input" type="password" name="Password">
               <br></br>
               <input class="button is-link" type="submit" name="boton_submit" value="Iniciar Sesión">
             </form>

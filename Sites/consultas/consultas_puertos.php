@@ -4,6 +4,7 @@
 		$id = $_GET['id'];
 		$id_puerto = $_GET['id_puerto'];
 	?>
+<link rel="stylesheet" href="../css/fondo.css">
 	<?php
 		if(isset($_POST['boton_miperfil']))
 		{
