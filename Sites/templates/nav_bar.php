@@ -1,19 +1,18 @@
-<?php $titulo = $_PHP_SELF ?>
 <head>
   <link rel="stylesheet" href="css/fondo.css">
 </head>
 <body>
 <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-      <a class="navbar-item title is-4">
+      <p class="navbar-item title is-4">
         Cochrane Ports
-      </a>
+      </p>
     </div>
 
     <div id="navbarBasicExample" class="navbar-menu">
       <div class="navbar-start">
-        <div id='titulo' class='navbar-item center'>
-          <a>titulo</a> 
+        <div id='titulo' class='navbar-item'>
+          <?php echo "<p>" . $titulo . "</p>"; ?> 
         </div>
         <div class="navbar-item">
         <form action="<?php $_PHP_SELF ?>" method="post"> 

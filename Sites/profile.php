@@ -1,4 +1,5 @@
 <?php
+  $titulo = "Perfil";
   include('templates/header.html');
   include('templates/nav_bar.php');
 ?>

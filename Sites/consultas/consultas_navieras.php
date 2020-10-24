@@ -1,5 +1,6 @@
 <!-- aqui va a estar la consulta 1 de navegacion -->
 <?php
+	$titulo = "Navieras";
   include('../templates/header.html');
   include('../templates/nav_bar.php');
   $id = $_GET['id'];
@@ -109,4 +110,4 @@
 		</div>
 		<div class="column is-1"></div>
 	</div>
-º<?php include("../templates/footer.html") ?>
+<?php include("../templates/footer.html") ?>

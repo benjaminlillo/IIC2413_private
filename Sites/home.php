@@ -1,4 +1,5 @@
 <?php
+  $titulo = "Inicio";
   include('templates/header.html');
   include('templates/nav_bar.php');
 ?>
@@ -32,10 +33,6 @@
   <br>
   <br>
   <br>
-    <div>
-      <h1 class = 'title' align="center"> Inicio </h2>
-      <br>
-    </div>
     <div class='columns is-mobile is-multiline is-centered'>
       <div class="column is-1"></div>
 

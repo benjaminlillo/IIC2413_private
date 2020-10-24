@@ -1,4 +1,5 @@
 	<?php
+		$titulo = "Puertos";
 		include('../templates/header.html');
 		include('../templates/nav_bar.php');
 		$id = $_GET['id'];
