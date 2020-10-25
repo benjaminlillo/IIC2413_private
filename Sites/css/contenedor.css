@@ -1,0 +1,18 @@
+div{
+    border-radius: 5px;
+}
+.contenedor{
+    background-color:rgba(255, 0, 242, 0);
+    width:auto;
+    height:auto;
+    display:flex;
+    justify-content: space-around;
+    margin: auto;
+}
+.contenedorv{
+    background-color:rgb(255, 0, 200);
+    width:auto;
+    height:auto;
+    justify-content: space-around;
+    margin: auto;
+}
