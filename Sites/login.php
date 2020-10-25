@@ -25,6 +25,13 @@
         <div class="column"></div>
 
         <div class="column">
+
+        <div class="title is-5 has-text-centered">
+          <strong>Cochrane Ports</strong> - Grupos 2 y 129
+          <br>
+          <a href="https://github.com/benjaminlillo/IIC2413_private">Repositorio de GitHub</a>
+        </div>
+
           <h2 class="title">Log In</h2>
 
           <div>
@@ -77,17 +84,10 @@
 }
 ?>
 
-
-<footer class="footer">
-	<div class="content has-text-centered">
-		<strong>Cochrane Ports</strong> - Grupos 2 y 129
-		<br>
-		<a href="https://github.com/benjaminlillo/IIC2413_private">Repositorio de GitHub</a>
-	</div>
-</footer>
 </body>
 
-</html>
+
+
 
 
 

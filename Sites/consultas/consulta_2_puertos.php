@@ -5,9 +5,9 @@
     $id = $_GET['id'];
     $id_puerto = $_GET['id_puerto'];
     $tipo = $_GET['tipo'];
-    $fecha1 = $_GET['Fecha_1'];
-    $fecha2 = $_GET['Fecha_2'];
-    $patente = $_GET['Patente'];
+    $fecha1 = $_GET['fecha_1'];
+    $fecha2 = $_GET['fecha_2'];
+    $patente = $_GET['patente'];
 ?>
 <link rel="stylesheet" href="../css/fondo.css">
 <?php
@@ -38,8 +38,15 @@
   <div class='column'></div>
   <div class='column'>
 		<div class='box'>
+      <?php
+      echo "<h4 align='center' class='subtitle is-4'>" .$tipo. "s</h4>";
+      ?>
       <table align='center' class='table'>
-        <tr><th>ID</th></tr><tr>
+        <tr>
+          <th align='center'>iid</th>
+          <th align='center'>Capacidad</th>
+          <th align='center'>Permisos</th>
+        </tr>
 
 <?php
     foreach($instalaciones as $p) {
@@ -48,8 +55,14 @@
         $result -> execute();
         $aux = $result -> fetchAll();
         
+        
         if (count($aux) < $p[1]){
-            echo "<tr> <td> $p[0] </td> <td> Tiene capacidad </td> </tr>";
+            $resta = $p[1] - count($aux);
+            echo "<tr> 
+                    <td> $p[0] </td>
+                    <td> Tiene: " .$resta. " </td>
+                    <td> <a href='./generar_permiso.php?id=" .$id. "&id_instalacion=" .$p['iid']. "&fecha_1=" . $fecha1 . "&fecha_2=" . $fecha2 . "&patente=" . $patente . "'> Generar permiso </a> </td>
+                  </tr>";
         } else {
             echo "<tr> <td> $p[0] </td> <td> No tiene capacidad </td> </tr>";
         }

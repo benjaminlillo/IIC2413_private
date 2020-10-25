@@ -10,19 +10,6 @@
 ?>
 
   <br>
-  <!-- <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
-    <div align="center">
-      <?php 
-      // echo "<div> <h2 class='title' align='center'>" . $vars['nombre'] . "</h2> </div>";
-      ?>
-      <br>
-      <div>
-      <form action="<?php $_PHP_SELF ?>" method="post">
-        <input class="button is-link" type="submit" name="boton_perfil" value="Mi Perfil">
-      </form>
-      </div>
-    </div>
-  </nav> -->
   <?php
   if(isset($_POST['boton_miperfil']))
   {

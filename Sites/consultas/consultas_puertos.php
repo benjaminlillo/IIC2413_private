@@ -32,11 +32,11 @@
 		}
 		if(isset($_POST['boton_consulta_2']))
 		{
-      $tipo = $_POST['tipo'];
+      		$tipo = $_POST['tipo'];
 			$fecha_1 = $_POST['Fecha_1'];
 			$fecha_2 = $_POST['Fecha_2'];
 			$patente = $_POST['Patente'];
-			echo "<script> location.href='consulta_2_puertos.php?id=" .$id. "&fecha_1=" .$fecha_1. "&fecha_2=" .$fecha_2. "&tipo=" .$tipo. "&id_puerto=" .$id_puerto. "'; </script>";
+			echo "<script> location.href='consulta_2_puertos.php?id=" .$id. "&fecha_1=" .$fecha_1. "&fecha_2=" .$fecha_2. "&tipo=" .$tipo. "&id_puerto=" .$id_puerto. "&patente=" .$patente. "'; </script>";
 			exit;
 		}
 	?>
@@ -75,9 +75,9 @@
 				<p class='title is-4'>Consulta 1</p>
 				<form action="login.php" method="post">
 					<label class="label">Fecha 1</label>
-					<input class="input" type="date" name="Fecha_1">
+					<input class="input" type="date" name="Fecha_1" required>
 					<label class="label">Fecha 2</label>
-					<input class="input" type="date" name="Fecha_2">
+					<input class="input" type="date" name="Fecha_2" required>
 					<br></br>
 					<input class="button is-link" type="submit" name="boton_consulta_1" value="Consulta 1">
 				</form>
@@ -93,11 +93,11 @@
 						</select>
 					</div>
 					<label class="label">Fecha 1</label>
-					<input class="input" type="date" name="Fecha_1">
+					<input class="input" type="date" name="Fecha_1" required>
 					<label class="label">Fecha 2</label>
 					<input class="input" type="date" name="Fecha_2">
 					<label class="label">Patente del barco</label>
-					<input class="input" type="text" name="Patente">
+					<input class="input" type="text" name="Patente" required>
 					<br></br>
 					<input class="button is-link" type="submit" name="boton_consulta_2" value="Consulta 2">
 				</form>
