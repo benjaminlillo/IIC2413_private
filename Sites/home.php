@@ -1,3 +1,4 @@
+<head><title>Inicio</title></head>
 <?php
   $titulo = "Inicio";
   include('templates/header.html');

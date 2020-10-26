@@ -1,4 +1,4 @@
-<!-- aqui va a estar la consulta 1 de navegacion -->
+<head><title>Navieras</title></head>
 <?php
 	$titulo = "Navieras";
   include('../templates/header.html');

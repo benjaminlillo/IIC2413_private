@@ -1,3 +1,4 @@
+<head><title>Puertos</title></head>
 <?php
     $titulo = "Puertos";
     include('../templates/header.html');
