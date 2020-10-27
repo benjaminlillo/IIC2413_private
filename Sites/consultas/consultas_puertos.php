@@ -30,6 +30,13 @@
 			echo "<script> location.href='../home.php?id=" .$id. "'; </script>";
 			exit;
 		}
+		if(isset($_POST['boton_consulta_1']))
+		{
+			$fecha_1 = $_POST['Fecha_1'];
+			$fecha_2 = $_POST['Fecha_2'];
+			echo "<script> location.href='consulta_1_puertos.php?id=" .$id. "&fecha_1=" .$fecha_1. "&fecha_2=" .$fecha_2. "&id_puerto=" .$id_puerto. "'; </script>";
+			exit;
+		}
 		if(isset($_POST['boton_consulta_2']))
 		{
       		$tipo = $_POST['tipo'];
