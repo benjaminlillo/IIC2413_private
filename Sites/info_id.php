@@ -10,12 +10,16 @@
 
     foreach ($dataCollected as $p) {
     if($id == $p["id"]){
-      $pasaporte = $p["pasaporte"];
-      $tipo = $p["tipo"];
       $nombre = $p["nombre"];
-      //$edad = $p["edad"];
-      //$sexo = $p["genero"];
-      //$nacionalidad = $p["nacionalidad"];
+      $pasaporte = $p["pasaporte"];
+      $sexo = $p["sexo"];
+      $edad = $p["edad"];
+      $nacionalidad = $p["nacionalidad"];
+      $tipo = $p["tipo"];
+
+      
+      
+      
       $correct = TRUE;
     }
     }
@@ -23,7 +27,8 @@
     if(!$correct) {
       echo "ERROR - NO ENCONTRADO";
     }
-    return array("pasaporte" => $pasaporte, "tipo" => $tipo, "nombre" => $nombre);
+    return array("pasaporte" => $pasaporte, "tipo" => $tipo, "nombre" => $nombre,
+                 "edad" => $edad, "sexo" => $sexo, "nacionalidad" => $nacionalidad);
   }
   
  

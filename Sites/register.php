@@ -34,7 +34,9 @@
   }
 
 ?>
-
+<?php
+  $status = $_GET['status'];
+?>
 <body>
 <section class="hero is-danger is-fullheight">
   <div class="hero-body">
@@ -45,58 +47,48 @@
 
         <div class="column">
           <h2 class="title">Registrarse</h2>
-
+          <?php if($status=='pasaporte'){
+            echo "<br>";
+            echo "<h2 class='subititle'> Pasaporte ya existe </h2>";
+            echo "<br>";
+          }
+          ?>
           <div>
             <form action="<?php $_PHP_SELF ?>" method="post">
               <label class="label has-text-white">Nombre</label>
               <input class="input" type="text" name="Nombre" required>
               <label class="label has-text-white">Edad</label>
-              <input class="input" type="Number" name="Edad" required>
+              <input class="input" type="Number" name="Edad" min="0" required>
+              <label class="label has-text-white">Pasaporte o RUT</label>
+              <input class="input" type="text" name="Pasaporte" required>
+              <label class="label has-text-white">Nacionalidad</label>
+              <input class="input" type="text" name="Nacionalidad" required>
+              <label class="label has-text-white">Contraseña</label>
+              <input class="input" type="password" name="Contraseña" required>
               <br>
               <label class="label has-text-white">Sexo</label>
               <div class="field">
                 <div class="control">
-                  <label class="radio">
-                    <input type="radio" name="Sexo">
+                  <label class="radio" for="femenino">
+                    <input type="radio" id="femenino" name="Sexo" value="femenino" checked>
                     Femenino
                   </label>
-                  <label class="radio">
-                    <input type="radio" name="Sexo">
+                  <label class="radio" for="masculino">
+                    <input type="radio" id="masculino" name="Sexo" value="masculino">
                     Masculino
-                  </label>
-                  <label class="radio">
-                    <input type="radio" name="Sexo" checked>
-                    Otro
                   </label>
                 </div>
               </div>
-              <label class="label has-text-white">Pasaporte o RUT</label>
-              <input class="input" type="password" name="Pasaporte" required>
-              <label class="label has-text-white">Nacionalidad</label>
-              <div class="select">
-                <select id = 'tipo' name = 'Nacionalidad' required>
-                  <option value = 'muelle'>Muelle</option>
-                  <option value = 'astillero'>Astillero</option>
-                  <!-- =============================== -->
-                  <?php
-                  foreach (paises as $nacionalidad){
-                    echo "<option value = ". $nacionalidad .">Astillero</option>";
-                  }
-                  ?>
-                </select>
-              </div>
-              <label class="label has-text-white">Contraseña</label>
-              <input class="input" type="password" name="Contraseña" required>
               <br></br>
                 <div class="columns">
                   <div class="column is-3">
-                    <input class="button is-dark" type="submit" name="boton_registrar" value="Registrarse">
+                    <input class="button is-dark" type="submit" name="boton_registrarse" value="Registrarse">
                   </div>
             </form>
                   <div class="column is-3"></div>
                   <div class="column is-3">
-                    <form action="./login.php" method="post">
-                      <input class="button is-success" type="submit" name="boton_login" value="Iniciar Sesión">
+                    <form action="./index.php" method="post">
+                      <input class="button is-success" type="submit" name="boton_login" value="Volver">
                     </form>
                   </div>
                 </div>
@@ -113,29 +105,35 @@
 </section>
 
 <?php
-if(isset($_POST['boton_registrar']))
+if(isset($_POST['boton_registrarse']))
 {
-  $pasaporte = $_POST["Pasaporte"]; 
-  $clave = $_POST["Password"];
+  $nombre = $_POST["Nombre"]; 
+  $edad = $_POST["Edad"];
+  $pasaporte = $_POST["Pasaporte"];
+  $nacionalidad = $_POST["Nacionalidad"];
+  $contrasena = $_POST["Contraseña"];
+  $sexo = $_POST["Sexo"];
+
   require("config/conexion_2.php");
-  $query = "SELECT * FROM Usuarios;";
+  $query = "SELECT pasaporte FROM Usuarios WHERE pasaporte='$pasaporte';";
   $result = $db -> prepare($query);
   $result -> execute();
   $dataCollected = $result -> fetchAll();
-
-  $valido = FALSE;
-  foreach ($dataCollected as $p) {
-    if($p["pasaporte"] == $pasaporte && $p["contrasena"] == $clave)
-    {
-      echo "<script> location.href='./home.php?id=" .$p["id"]. "'; </script>";
-      $valido = TRUE;
-      exit;
-    }
+  print_r($dataCollected);
+  if(empty($dataCollected)){
+    // insertar tupla
+    $query = "INSERT INTO Usuarios VALUES('$nombre', '$pasaporte', '$sexo', '$nacionalidad', $edad, '$contrasena', 'normal');";
+    $result = $db -> prepare($query);
+    $result -> execute();
+    $dataCollected = $result -> fetchAll();
+    // redirigir a home
+    echo "<script> location.href='./index.php?status=registrado'; </script>";
   }
+  echo "<script> location.href='./register.php?status=pasaporte'; </script>";
 }
 if(isset($_POST['boton_login']))
 {
-  echo "<script> location.href='./login.php'; </script>";
+  echo "<script> location.href='./index.php'; </script>";
 }
 ?>
 

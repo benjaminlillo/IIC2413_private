@@ -1,5 +1,10 @@
 <head><title>Puertos</title></head>
-<h1>hola</h1>
+<?php
+  $titulo = "Generar permiso";
+  include('../templates/header.html');
+  include('../templates/nav_bar.php');
+?>
+
 <?php
   $id = $_GET['id'];
   $id_instalacion = $_GET['id_instalacion'];
@@ -7,33 +12,46 @@
   $fecha_2 = $_GET['fecha_2'];
   $patente = $_GET['patente'];
 
+  if(isset($_POST['boton_miperfil']))
+  {
+    echo "<script> location.href='../profile.php?id=" .$id. "'; </script>";
+    exit;
+  }
+  ?>
+  <?php
+  if(isset($_POST['boton_inicio']))
+  {
+    echo "<script> location.href='../home.php?id=" .$id. "'; </script>";
+    exit;
+  }
+
   require("../config/conexion_129.php");
   $query = "SELECT * FROM permisos;";
   $result = $db -> prepare($query);
   $result -> execute();
   $p = $result -> fetchAll();
 
-  $largo = 900;
-  print_r($fecha_1);
+  $largo = end($p)['peid'] + 1;
   echo "<br>";
-  print_r($fecha_2);
   echo "<br>";
-  print_r($id_instalacion);
   echo "<br>";
-  print_r($largo);
-  echo "<br>";
-  print_r($patente);
-  echo "<br>";
-  $query = "INSERT INTO permisos VALUES($largo, $id_instalacion, '$patente', TIMESTAMP '2018-04-20 06:06:35', TIMESTAMP '2018-04-20 06:06:35', 'te odio php');";
-  //$query = "INSERT INTO test VALUES('php', 1);";
+  $query = "INSERT INTO permisos VALUES($largo, $id_instalacion, '$patente', TIMESTAMP '$fecha_1', TIMESTAMP '$fecha_2', 'holi');";
+  // $query = "INSERT INTO test VALUES('php');";
   $result = $db -> prepare($query);
   $result -> execute();
   $p = $result -> fetchAll();
-  print_r($p);
   /* $query = ;";
   $result = $db -> prepare($query);
   $result -> execute();
   $p = $result -> fetchAll();
   print_r($p);
   print_r("CREADO!"); */
+  if(empty($p)){
+    echo "<h1 class='title' align='center'>Patente no existe</h1>";
+  }
+  else {
+    echo "<h1 class='title' align='center'>Permiso creado</h1>";
+  }
 ?>
+
+<?php include("../templates/footer.html") ?>

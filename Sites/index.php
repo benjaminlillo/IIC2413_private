@@ -15,7 +15,9 @@
       }
     </style>
 </head>
-
+<?php
+$status = $_GET['status'];
+?>
 <body>
 <section class="hero is-success is-fullheight">
   <div class="hero-body">
@@ -29,11 +31,14 @@
         <div class="title is-5 has-text-centered">
           <strong>Cochrane Ports</strong> - Grupos 2 y 129
           <br>
-          VER INJECTION
           <a href="https://github.com/benjaminlillo/IIC2413_private">Repositorio de GitHub</a>
         </div>
 
           <h2 class="title">Iniciar Sesión</h2>
+          <?php if($status=='registrado'){
+          echo "<h2 class='subtitle'>Usuario creado</h2>";
+          }
+          ?>
 
           <div>
             <form action="<?php $_PHP_SELF ?>" method="post">
