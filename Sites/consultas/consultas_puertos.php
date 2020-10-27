@@ -40,6 +40,13 @@
 			echo "<script> location.href='consulta_2_puertos.php?id=" .$id. "&fecha_1=" .$fecha_1. "&fecha_2=" .$fecha_2. "&tipo=" .$tipo. "&id_puerto=" .$id_puerto. "&patente=" .$patente. "'; </script>";
 			exit;
 		}
+		if(isset($_POST['boton_consulta_1']))
+		{
+			$fecha_1 = $_POST['Fecha_1'];
+			$fecha_2 = $_POST['Fecha_2'];
+			echo "<script> location.href='consulta_1_puertos.php?id=" .$id. "&fecha_1=" .$fecha_1. "&fecha_2=" .$fecha_2. "&id_puerto=" .$id_puerto. "'; </script>";
+			exit;
+		}
 	?>
 	<?php
 		require("../config/conexion_129.php"); #Llama a conexión, crea el objeto PDO y obtiene la variable $db
@@ -76,7 +83,7 @@
 
 			<div class='box'>
 				<p class='title is-4'>Consulta 1</p>
-				<form action="index.php" method="post">
+				<form action="<?php $_PHP_SELF ?>" method="post">
 					<label class="label">Fecha 1</label>
 					<input class="input" type="date" name="Fecha_1" required>
 					<label class="label">Fecha 2</label>

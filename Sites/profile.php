@@ -144,7 +144,7 @@
         <form action='<?php $_PHP_SELF ?>' method='post'>
           <label class='label'>Fecha de llegada</label>
           <input class='input' type='date' name='Fecha' required>
-          <label class='label'>Puerto</label>
+          <label class='label'>Nombre próximo puerto</label>
           <input class='input' type='text' name='Puerto' required>
           <br>
           <br>
