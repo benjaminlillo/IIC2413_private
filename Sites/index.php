@@ -15,7 +15,9 @@
       }
     </style>
 </head>
-
+<?php
+$status = $_GET['status'];
+?>
 <body>
 <section class="hero is-success is-fullheight">
   <div class="hero-body">
@@ -32,24 +34,28 @@
           <a href="https://github.com/benjaminlillo/IIC2413_private">Repositorio de GitHub</a>
         </div>
 
-          <h2 class="title">Log In</h2>
+          <h2 class="title">Iniciar Sesión</h2>
+          <?php if($status=='registrado'){
+          echo "<h2 class='subtitle'>Usuario creado</h2>";
+          }
+          ?>
 
           <div>
-            <form action="login.php" method="post">
+            <form action="<?php $_PHP_SELF ?>" method="post">
               <label class="label">Pasaporte</label>
               <input class="input" type="text" name="Pasaporte">
               <label class="label">Contraseña</label>
               <input class="input" type="password" name="Password">
               <br></br>
-                <div class="columns">
-                  <div class="column is-3">
-                    <input class="button is-danger" type="submit" name="boton_submit" value="Registrarse">
-                  </div>
-                  <div class="column is-1-desktop is-3-mobile is-3-tablet"></div>
-                  <div class="column is-3">
-                    <input class="button is-info" type="submit" name="boton_submit" value="Iniciar Sesión">
-                  </div>
+              <div class="columns">
+                <div class="column is-3">
+                  <input class="button is-info" type="submit" name="boton_submit" value="Iniciar Sesión">
                 </div>
+                <div class="column is-3"></div>
+                <div class="column is-3">
+                  <input class="button is-danger" type="submit" name="boton_registrarse" value="Registrarse">
+                </div>
+              </div>
               
             </form>
           </div>
@@ -62,7 +68,8 @@
   </div>
 </section>
 
-<?php if(isset($_POST['boton_submit']))
+<?php
+if(isset($_POST['boton_submit']))
 {
   $pasaporte = $_POST["Pasaporte"]; 
   $clave = $_POST["Password"];
@@ -81,6 +88,10 @@
       exit;
     }
   }
+}
+if(isset($_POST['boton_registrarse']))
+{
+  echo "<script> location.href='./register.php'; </script>";
 }
 ?>
 

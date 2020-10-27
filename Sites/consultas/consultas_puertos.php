@@ -1,3 +1,4 @@
+<head><title>Puertos</title></head>
 	<?php
 		$titulo = "Puertos";
 		include('../templates/header.html');
@@ -58,6 +59,8 @@
 	?>
 	<br>
   <br>
+  <br>
+  <br>
 	<br>
 	<div class='columns'>
 		<div class='column'></div>
@@ -80,7 +83,7 @@
 
 			<div class='box'>
 				<p class='title is-4'>Consulta 1</p>
-				<form action="login.php" method="post">
+				<form action="index.php" method="post">
 					<label class="label">Fecha 1</label>
 					<input class="input" type="date" name="Fecha_1" required>
 					<label class="label">Fecha 2</label>

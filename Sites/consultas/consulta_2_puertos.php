@@ -1,3 +1,4 @@
+<head><title>Puertos</title></head>
 <?php
     $titulo = "Puertos";
     include('../templates/header.html');
@@ -37,6 +38,8 @@
 <div class='columns'>
   <div class='column'></div>
   <div class='column'>
+    <br>
+    <br>
 		<div class='box'>
       <?php
       echo "<h4 align='center' class='subtitle is-4'>" .$tipo. "s</h4>";
