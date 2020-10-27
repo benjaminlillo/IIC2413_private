@@ -35,8 +35,12 @@ $status = $_GET['status'];
         </div>
 
           <h2 class="title">Iniciar Sesión</h2>
-          <?php if($status=='registrado'){
-          echo "<h2 class='subtitle'>Usuario creado</h2>";
+          <?php
+          if($status=='registrado'){
+            echo "<h2 class='subtitle'>Usuario creado</h2>";
+          }
+          if($status == 'clave'){
+            echo "<h2 class='subtitle'>Contraseña o usuario incorrectos</h2>";
           }
           ?>
 
@@ -88,6 +92,7 @@ if(isset($_POST['boton_submit']))
       exit;
     }
   }
+  echo "<script> location.href='./index.php?status=clave'; </script>";
 }
 if(isset($_POST['boton_registrarse']))
 {

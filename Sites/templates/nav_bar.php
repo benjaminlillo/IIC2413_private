@@ -3,11 +3,9 @@
 </head>
 <body>
 <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
-    <div class="navbar-brand">
-      <p class="navbar-item title is-4">
-        Cochrane Ports
-      </p>
-    </div>
+  <div class="navbar-brand">
+    <p class="navbar-item title is-4">Cochrane Ports</p>
+  </div>
 
     <div id="navbarBasicExample" class="navbar-menu">
       <div class="navbar-start">
@@ -25,8 +23,6 @@
             <input class="button is-link" type="submit" name="boton_miperfil" value="Mi Perfil">
           </form>
         </div>
-
-        
       </div>
 
 
@@ -43,4 +39,4 @@
         </div>
       </div>
     </div>
-  </nav>
+</nav>

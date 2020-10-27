@@ -8,6 +8,7 @@
   $id = $_GET["id"];
   include('info_id.php');
   $vars = get_params($id);
+  $status = $_GET['status']
 ?>
 
 <body>
@@ -40,6 +41,15 @@
           <td> <?php echo $vars["nacionalidad"] ?> </td>
         </tr>
       </table>
+      <div align='center'>
+        <form action="<?php $_PHP_SELF ?>" method="post">
+          <input class='button is-link' type='submit' name='boton_cambiar_clave' value='Cambiar contraseña'>
+        </form>
+        <?php if($status == 'cambio_clave'){
+        echo "<h4 class='subtitle is-5'> Contraseña cambiada </h4>";
+        }
+        ?>
+      </div>
     </div>
 <?php
   if($vars["tipo"] == "capitan"){
@@ -144,7 +154,7 @@
 <?php
     echo "
           <div class='box'>
-            <h3 align='center' class='title is-5'>Atraques Pasados</h3>
+            <h3 align='center' class='title'>Atraques Pasados</h3>
             <div>
               <table align='center' class='table'>
                 <tr>
@@ -239,6 +249,13 @@
   $fecha = $_POST['Fecha'];
   $puerto = $_POST['Puerto'];
   echo "<script> location.href='consultas/generar_proximo_itinerario.php?id=" .$id. "&bid=" .$bid. "&fecha=" .$fecha. "&puerto=" .$puerto. "'; </script>";
+  
+  exit;
+}
+
+if(isset($_POST['boton_cambiar_clave']))
+{
+  echo "<script> location.href='./cambiar_clave.php?id=" .$id. "'; </script>";
   
   exit;
 }
