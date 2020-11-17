@@ -92,25 +92,41 @@ def delete_message(mid):
     return json.jsonify({"success": True})
 
 
-@app.route("/text-search")
+
 # db.mensajes.find({$text: {$search: "salu3"}, sender: 320}, {_id: 0})
 # db.mensajes.find({$text: {$search: "salu3"}, sender: { $in: [320, 325]}}, {_id: 0})
 # db.mensajes.createIndex({"message": "text"})
+# SEARCH_KEYS = ['desired', 'required', 'forbidden', 'userId']
+# forb [a, b, c, d]
+# desi [1, 2]
+# db.mensajes.find({$text: {$search: "chile"}}, {_id: 0}).pretty()
+
+@app.route("/text-search")
 def search_message():
     data = request.json
     for key in SEARCH_KEYS:
         if key not in data.keys():
             data[key] = []
+    
+    forbidden = data["forbidden"]
+    desired = data["desired"]
+    required = data["required"]
+
+    forbidden = "-" + (" -").join(forbidden)
+    desired = (" ").join(desired)
+    required = ["\"" + x + "\"" for x in required]
+    required = (" ").join(required)
+
+    query = f"{required} {desired} {forbidden}"
+    print(query)
 
     if type(data["userId"]) == int:
-        mensajes = list(db.mensajes.find(
-            {"$text": {"$search": "salu3"}, "sender": data["userId"]}, {"_id": 0}))
+        mensajes = list(db.mensajes.find({"$text": {"$search": query}, "sender": data["userId"]}, {"_id": 0}))
         if not mensajes:
-            return json.jsonify(no_user_id)
+            return json.jsonify(no_results)
         return json.jsonify(mensajes)
     else:
-        mensajes = list(db.mensajes.find(
-            {"$text": {"$search": "salu3"}}, {"_id": 0}))
+        mensajes = list(db.mensajes.find({"$text": {"$search": query}}, {"_id": 0}))
         return json.jsonify(mensajes)
 
 
