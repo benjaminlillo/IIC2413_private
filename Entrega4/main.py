@@ -48,7 +48,10 @@ def get_user(uid):
     '''
     users = list(db.usuarios.find({"uid": uid}, {"_id": 0}))
 
-    return json.jsonify(users)
+    if users: 
+        return json.jsonify(users)
+    else: 
+        return json.jsonify('uid no identificado')
 
 
 @app.route("/messages")
@@ -72,16 +75,27 @@ def get_message(mid):
         mensajes.find({}, {"_id": 0})
     '''
     messages = list(db.mensajes.find({"mid": mid}, {"_id": 0}))
-
-    return json.jsonify(messages)
+    
+    if messages:
+        return json.jsonify(messages)
+    else: 
+        return json.jsonify('mid no identificado')
 
 
 @app.route("/messages", methods=['POST'])
 def create_message():
 
     data = {key: request.json[key] for key in MESSAGE_KEYS}
-
-    result = db.mensajes.insert_one(data)
+    
+    lista_sucia = list(db.mensajes.find({}, {"mid": 1}))
+    lista_limpia = []
+    for dicc in lista_sucia:
+        if 'mid' in dicc.keys(): 
+            lista_limpia.append(dicc['mid'])
+    lista_limpia.sort()
+    mid = lista_limpia[-1] + 1
+    data['mid'] = mid
+    result = db.mensajes.insert_one(data).inserted_id
 
     return json.jsonify({"success": True})
 
@@ -101,33 +115,119 @@ def delete_message(mid):
 # desi [1, 2]
 # db.mensajes.find({$text: {$search: "chile"}}, {_id: 0}).pretty()
 
-@app.route("/text-search")
-def search_message():
-    data = request.json
+def get_query(data):
+    #en caso de que no haya una key
     for key in SEARCH_KEYS:
         if key not in data.keys():
             data[key] = []
-    
+ 
+    print('data:', data)
+
     forbidden = data["forbidden"]
     desired = data["desired"]
     required = data["required"]
 
-    forbidden = "-" + (" -").join(forbidden)
-    desired = (" ").join(desired)
-    required = ["\"" + x + "\"" for x in required]
-    required = (" ").join(required)
-
-    query = f"{required} {desired} {forbidden}"
-    print(query)
-
-    if type(data["userId"]) == int:
-        mensajes = list(db.mensajes.find({"$text": {"$search": query}, "sender": data["userId"]}, {"_id": 0}))
-        if not mensajes:
-            return json.jsonify(no_results)
-        return json.jsonify(mensajes)
+    #en caso de que el value de la key sea lista vacia
+    if desired == []:
+        desired = ""
     else:
-        mensajes = list(db.mensajes.find({"$text": {"$search": query}}, {"_id": 0}))
-        return json.jsonify(mensajes)
+        desired = (" ").join(desired)
+
+    if required == []:
+        required = ""
+    else:
+        required = ["\"" + x + "\"" for x in required]
+    
+    if forbidden == []:
+        forbidden = ""
+    else:
+        forbidden = "-" + (" -").join(forbidden)
+
+    # Transformar si se mete un string
+    # if type(desired) == str:
+    #     desired = desired.split(' ')
+    # desired = (" ").join(desired)
+
+    # if type(required) == str:
+    #     required = required.split(' ')
+    # required = ["\"" + x + "\"" for x in required]
+    # required = (" ").join(required)
+
+    # if type(forbidden) == str:
+    #     forbidden = forbidden.split(' ')
+    # if forbidden != []:
+    #     forbidden = "-" + (" -").join(forbidden)
+    # elif forbidden == [] or forbidden == 
+
+    return desired, required, forbidden
+
+@app.route("/text-search")
+def search_message():
+
+    data = request.json
+    if not data:
+        print('no hay body o es dict vacio')
+        mensajes_all = list(db.mensajes.find({},{"_id": 0}))
+        return json.jsonify(mensajes_all)
+    desired, required, forbidden = get_query(data)
+
+    # Ver si solo hay forbiddens
+    # Hacer dos consultas, una con todos los mensajes y otros con los que
+    # contengan la palabra prohibida, y restar los conjuntos.
+    if desired == "" and required == "" and forbidden != "":
+        print('solo hay forbidden')
+        # forbidden_lista = forbidden.replace("-", "").split(" ")
+        query = forbidden.replace("-", "")
+        if type(data["userId"]) == int:
+            mensajes_all = list(db.mensajes.find({"sender": data["userId"]},{"_id": 0}))
+            if not mensajes_all:
+                return json.jsonify(no_results)
+            mensajes_forbidden = list(db.mensajes.find({"$text": {"$search": query}, "sender": data["userId"]}, {"_id": 0}))
+
+            # Restar listas
+            mensajes = []
+            for mensaje in mensajes_all:
+                if mensaje not in mensajes_forbidden:
+                    mensajes.append(mensaje)
+
+            return json.jsonify(mensajes)
+        else:
+            mensajes_all = list(db.mensajes.find({},{"_id": 0}))
+            if not mensajes_all:
+                return json.jsonify(no_results)
+            mensajes_forbidden = list(db.mensajes.find({"$text": {"$search": query}}, {"_id": 0}))
+
+            # Restar listas
+            mensajes = []
+            for mensaje in mensajes_all:
+                if mensaje not in mensajes_forbidden:
+                    mensajes.append(mensaje)
+            
+            return json.jsonify(mensajes)
+
+    elif desired == "" and required == "" and forbidden == "":
+        print('body values todos vacios')
+
+        if type(data["userId"]) == int:
+            mensajes_all = list(db.mensajes.find({"sender": data["userId"]},{"_id": 0}))
+            if not mensajes_all:
+                return json.jsonify(no_results)
+            return json.jsonify(mensajes_all)
+        else:
+            mensajes_all = list(db.mensajes.find({}, {"_id": 0}))
+            return json.jsonify(mensajes_all)
+    else:
+        print('body normal')
+        query = f"{required} {desired} {forbidden}"
+
+        if type(data["userId"]) == int:
+            mensajes = list(db.mensajes.find({"$text": {"$search": query}, "sender": data["userId"]}, {"_id": 0}))
+            if not mensajes:
+                return json.jsonify(no_results)
+            return json.jsonify(mensajes)
+        else:
+            mensajes = list(db.mensajes.find({"$text": {"$search": query}}, {"_id": 0}))
+            return json.jsonify(mensajes)
 
 
 if __name__ == "__main__":
