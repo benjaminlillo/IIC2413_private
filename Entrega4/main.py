@@ -58,12 +58,9 @@ def get_messages():
     '''
     uid1 = request.args.get("id1", False)
     uid2 = request.args.get("id2", False)
-    if not uid1 and not uid2:
-        m1 = list(db.mensajes.find(
-            {"sender": uid1, "receptant": uid2}, {"_id": 0}))
-        m2 = list(db.mensaje.find({"sender": uid2, "receptant": uid1}, {"_id": 0}))
-        messages = m1 + m2
-        return json.jsonify(messages)
+    if uid1 and uid2:
+        m1 = list(db.mensajes.find({"$or":[{"sender": int(uid1), "receptant": int(uid2)}, {"sender": int(uid2), "receptant": int(uid1)}]}, {"_id": 0}))
+        return json.jsonify(m1)
     else:
         messages = list(db.mensajes.find({}, {"_id": 0}))
         return json.jsonify(messages)
