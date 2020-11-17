@@ -10,7 +10,7 @@ client = MongoClient(URL)
 
 # MENSAJES
 MESSAGE_KEYS = ['date', 'lat', 'long',
-            'message', 'mid', 'receptant', 'sender']
+                'message', 'mid', 'receptant', 'sender']
 # TEXT-SEARCH
 SEARCH_KEYS = ['desired', 'required', 'forbidden', 'userId']
 # NO RESULTS
@@ -22,12 +22,14 @@ db = client["grupo2"]
 
 app = Flask(__name__)
 
+
 @app.route("/")
 def home():
     '''
     Página de inicio
     '''
     return "<h1>¡Hola!</h1>"
+
 
 @app.route("/users")
 def get_users():
@@ -48,6 +50,7 @@ def get_user(uid):
 
     return json.jsonify(users)
 
+
 @app.route("/messages")
 def get_messages():
     '''
@@ -56,13 +59,15 @@ def get_messages():
     uid1 = request.args.get("id1", False)
     uid2 = request.args.get("id2", False)
     if not uid1 and not uid2:
-        m1 = list(db.mensajes.find({"sender": uid1, "receptant": uid2}, {"_id": 0}))
-        m2 = list(db.mensaje.find({"sender": uid2, "receptant": uid1}, "_id": 0))
+        m1 = list(db.mensajes.find(
+            {"sender": uid1, "receptant": uid2}, {"_id": 0}))
+        m2 = list(db.mensaje.find({"sender": uid2, "receptant": uid1}, {"_id": 0}))
         messages = m1 + m2
         return json.jsonify(messages)
     else:
         messages = list(db.mensajes.find({}, {"_id": 0}))
         return json.jsonify(messages)
+
 
 @app.route("/messages/<int:mid>")
 def get_message(mid):
@@ -70,8 +75,9 @@ def get_message(mid):
         mensajes.find({}, {"_id": 0})
     '''
     messages = list(db.mensajes.find({"mid": mid}, {"_id": 0}))
-    
+
     return json.jsonify(messages)
+
 
 @app.route("/messages", methods=['POST'])
 def create_message():
@@ -82,8 +88,9 @@ def create_message():
 
     return json.jsonify({"success": True})
 
-@app.route("/messages/<int: mid>", methods=['DELETE'])
-def delete_message():
+
+@app.route("/messages/<int:mid>", methods=['DELETE'])
+def delete_message(mid):
     db.mensajes.remove({"mid": mid})
     return json.jsonify({"success": True})
 
@@ -97,14 +104,16 @@ def search_message():
     for key in SEARCH_KEYS:
         if key not in data.keys():
             data[key] = []
-    
+
     if type(data["userId"]) == int:
-        mensajes = list(db.mensajes.find({"$text": {"$search": "salu3"}, "sender": data["userId"]}, {"_id": 0}))
+        mensajes = list(db.mensajes.find(
+            {"$text": {"$search": "salu3"}, "sender": data["userId"]}, {"_id": 0}))
         if not mensajes:
             return json.jsonify(no_user_id)
         return json.jsonify(mensajes)
     else:
-        mensajes = list(db.mensajes.find({"$text": {"$search": "salu3"}}, {"_id": 0}))
+        mensajes = list(db.mensajes.find(
+            {"$text": {"$search": "salu3"}}, {"_id": 0}))
         return json.jsonify(mensajes)
 
 
