@@ -132,7 +132,6 @@ def search_message():
         mensajes = list(db.mensajes.find({"$text": {"$search": query}}, {"_id": 0}))
         return json.jsonify(mensajes)
 
-{"$search": "salu3"}
 
 if __name__ == "__main__":
     app.run()
