@@ -10,7 +10,7 @@ client = MongoClient(URL)
 
 # MENSAJES
 MESSAGE_KEYS = ['date', 'lat', 'long',
-                'message', 'mid', 'receptant', 'sender']
+                'message', 'receptant', 'sender']
 # TEXT-SEARCH
 SEARCH_KEYS = ['desired', 'required', 'forbidden', 'userId']
 # NO RESULTS
@@ -100,10 +100,15 @@ def create_message():
     return json.jsonify({"success": True})
 
 
-@app.route("/messages/<int:mid>", methods=['DELETE'])
+@app.route("/message/<int:mid>", methods=['DELETE'])
 def delete_message(mid):
-    db.mensajes.remove({"mid": mid})
-    return json.jsonify({"success": True})
+    messages = list(db.mensajes.find({"mid": mid}, {"_id": 0}))
+    if messages:
+        db.mensajes.remove({"mid": mid})
+        return json.jsonify({"success": True})
+
+    else: 
+        return json.jsonify('mid no identificado')
 
 
 
@@ -163,9 +168,8 @@ def get_query(data):
 
 @app.route("/text-search")
 def search_message():
-
     data = request.json
-    if not data:
+    if not data or data == None:
         print('no hay body o es dict vacio')
         mensajes_all = list(db.mensajes.find({},{"_id": 0}))
         return json.jsonify(mensajes_all)
@@ -183,6 +187,7 @@ def search_message():
             if not mensajes_all:
                 return json.jsonify(no_results)
             mensajes_forbidden = list(db.mensajes.find({"$text": {"$search": query}, "sender": data["userId"]}, {"_id": 0}))
+            print(mensajes_forbidden)
 
             # Restar listas
             mensajes = []
