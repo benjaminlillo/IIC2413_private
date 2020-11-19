@@ -1,0 +1,3 @@
+# README Entrega 4
+
+La API esta hecha completa, tanto el GET, POST y el DELETE de de messages y usuarios funciona correctamente. Ahora respecto al text-search, solo a 1 de nuestros integrantes le tiraba error cuando se hacia con un body vacio, no sabiamos porque pero es algo a tener cuenta por si no les funciona. Ojala utilizen python 3.7 por que a veces fallaba si se utilizaba una versión, aunque pipenv deberia corregirlo igual. 
